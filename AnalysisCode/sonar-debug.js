@@ -1,6 +1,6 @@
 
 
-// Deine Daten
+// AI generated
 const TOKEN = 'squ_fc122f630ab89ca62f31ab34641d4f6b5fac9d62';
 const PROJECT = 'st2_19'; 
 const BASE_URL = 'http://localhost:9000';
