@@ -73,15 +73,9 @@ async function runAnalysis() {
                 rules.forEach(r => count += (ruleCounts[r] || 0));
                 smellReport[category] = count;
             }
-
-            // ---------------------------------------------------------
-            // SCHRITT 3: Anemic Entities Heuristik (Verbesserte Version)
-            // ---------------------------------------------------------
+            //SCHRITT 3: Anemic Entities Heuristik 
+            const NUR_IM_DOMAIN_ORDNER = true; 
             
-            // KONFIGURATION FÜR DIESEN SCHRITT:
-            const NUR_IM_DOMAIN_ORDNER = true; // Setze auf true, um Pfad-Filter zu aktivieren
-            
-            // Wir erhöhen ps=500 (Maximum), damit wir möglichst viele Dateien erwischen
             const metricsUrl = `${SONAR_URL}/api/measures/component_tree?component=${project.key}&metricKeys=functions,cognitive_complexity,ncloc&qualifiers=FIL&ps=500`;
             const metricsResp = await fetch(metricsUrl, { headers: AUTH_HEADER });
             const metricsData = await metricsResp.json();
