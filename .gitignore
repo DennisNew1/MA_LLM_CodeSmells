@@ -1,0 +1,18 @@
+# --- Sicherheit ---
+.env
+.env.local
+.env.*.local
+
+# --- Abhängigkeiten  ---
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# --- Betriebssystem-Dateien  ---
+.DS_Store
+Thumbs.db
+
+# --- Editor-Einstellungen ---
+.vscode/
+.idea/
