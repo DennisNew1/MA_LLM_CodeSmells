@@ -18,19 +18,20 @@ let geminiModel; // dont set
 
 // Settings
 const REASONING = true; // LLM soll einene Grund geben warum es zu diesem Smell kam. 
+const ADD_LINE_NUMBERS = true; //true = Mit Zeilennummern, false = Ohne
 const MAXTOKEN = 15000 // Daumenregel Tokens * 3 (DeepSeek) ODER 4 (Claude / Gemini) = max Buchstabenlänge der Antwort https://api-docs.deepseek.com/quick_start/token_usage UND https://platform.claude.com/docs/en/about-claude/pricing UND https://ai.google.dev/gemini-api/docs/tokens?hl=de&lang=python
 
 // An welche LLM? Nur gemini geht im Testmodus
-const GEMINI = true;
+const GEMINI = false;
 const CLAUDE = true;
-const DEEPSEEK = true;
+const DEEPSEEK = false;
 
 // Folder Crawler Einstellungen
 const ALLOWED_EXTENSIONS = [".java"]; 
 const IGNORE_DIRS = [
     "node_modules", ".git", ".idea", "target", "build", "bin", "promptLogs"
 ];
-const TARGET_DIR = "C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_6c9c960d-fa9f-4b80-9b1c-388e2b42312a"; // Projektordner
+const TARGET_DIR = "C:/workspace/Masterarbeit/Repositories/ST2M4_group_13fb5450-bcb2-4392-bce6-c331d6d2b317"; // Projektordner
 
 // checks for API keys and set up
 function init() {
@@ -114,13 +115,28 @@ function readProjectFolder(dirPath, fileList = []) {
 
 function readFileList(fileList) {
     let combinedContent = "";
-    console.log(`INFO: länge Filelist ${fileList.length} `);
+    console.log(`INFO: ${fileList.length} Dateien gefunden.`);
 
     fileList.forEach(filePath => {
         try {
             const content = fs.readFileSync(filePath, "utf8");
+            
             combinedContent += `\n\n--- FILE: ${filePath} ---\n`;
-            combinedContent += content;
+
+            if (ADD_LINE_NUMBERS) {
+                // Mit Zeilennummern, weil KI schlechte Zeilenangaben gibt
+                const lines = content.split(/\r?\n/);
+                const numberedContent = lines.map((line, index) => {
+                    return `${index + 1}: ${line}`;
+                }).join('\n');
+                
+                combinedContent += numberedContent;
+
+            } else {
+                // Ohne Zeilennummern (Original, spart Tokens)
+                combinedContent += content;
+            }
+
         } catch (err) {
             console.warn(`WARNING: Fehler beim Lesen: ${filePath}`);
         }
@@ -177,7 +193,8 @@ async function runAnalysis() {
     4. Gruppiere nach Datei (mit Pfad). 
     2. Format unter der Datei je Smell: [Dateiname (ohne Pfad)] [Zeile(n) X]: [Smell] [Nur bei Duplizierung: die original Zeile(n)] ${REASONING ? ": [Begründung]" : ""}.
     3. Keine Code-Wiederholung, nur Referenzen.
-    5. Wenn fertig, schreibe "ENDE".`
+    5. Wenn fertig, schreibe "ENDE". 
+    ${ADD_LINE_NUMBERS ? "6. Nutze die Zeilenangaben die mitgeschickt worden sind." : ""}`
      
     // Zielordner (Aktueller Ordner ".")
     const targetDir = TARGET_DIR;
