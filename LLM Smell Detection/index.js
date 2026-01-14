@@ -23,8 +23,8 @@ const MAXTOKEN = 15000 // Daumenregel Tokens * 3 (DeepSeek) ODER 4 (Claude / Gem
 
 // An welche LLM? Nur gemini geht im Testmodus
 const GEMINI = true;
-const CLAUDE = true;
-const DEEPSEEK = true;
+const CLAUDE = false;
+const DEEPSEEK = false;
 
 const REPO_LIST_FILE = "folders.txt";
 // Folder Crawler Einstellungen

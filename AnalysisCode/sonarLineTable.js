@@ -4,7 +4,7 @@
  * Erzeugt eine CSV mit Projekt-Headern und Zeilennummern pro Datei.
  */
 
-const fetch = require('node-fetch');
+//const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 
