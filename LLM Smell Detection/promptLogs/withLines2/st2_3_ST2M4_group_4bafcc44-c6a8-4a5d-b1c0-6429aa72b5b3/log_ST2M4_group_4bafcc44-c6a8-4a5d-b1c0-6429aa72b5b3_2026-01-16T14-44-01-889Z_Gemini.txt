@@ -1,4 +1,4 @@
---- DATE: 13.1.2026, 14:21:05 ---
+--- DATE: 16.1.2026, 15:44:01 ---
 
 [PROMPT]:
 Du bist ein erfahrener Java-Reviewer.
@@ -5042,60 +5042,64 @@ Du bist ein erfahrener Java-Reviewer.
 81: 
 
 [RESPONSE]:
-Nach der Analyse des Codes habe ich folgende Code Smells identifiziert:
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\domainprimitives\Address.java
+[Address.java] [26-28]: [dead code] : Der Konstruktor ist leer und enthält einen TODO-Kommentar zum Löschen, wird also anscheinend nicht benötigt.
 
----
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\domainprimitives\Email.java
+[Email.java] [19-21]: [dead code] : Der Konstruktor ist leer und enthält einen TODO-Kommentar zum Löschen.
+[Email.java] [37-42]: [negative conditionals] : Die Überprüfung der Domain-Endung ist als komplexe negative Bedingung (`if (!(...))`) formuliert, was die Lesbarkeit erschwert.
 
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\domainprimitives\Email.java
-Email.java Zeile 32: Dead Code : Auskommentierte Codezeile sollte entfernt werden.
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\domainprimitives\Money.java
+[Money.java] [21-23]: [dead code] : Der Konstruktor ist leer und enthält einen TODO-Kommentar zum Löschen.
+[Money.java] [28]: [negative conditionals] : Die Überprüfung der Währung ist als negative Bedingung (`if (!(...))`) formuliert.
+[Money.java] [54]: [Duplication] [47] : Die Überprüfung, ob die Währungen übereinstimmen, ist identisch kopiert.
+[Money.java] [69]: [Duplication] [47] : Die Überprüfung, ob die Währungen übereinstimmen, ist identisch kopiert.
 
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\domainprimitives\Money.java
-Money.java Zeilen 46-48: Duplication (Original: Zeilen 52-55) : Null- und Währungsprüfung wiederholt sich in add, subtract und largerThan Methoden.
-Money.java Zeilen 52-55: Duplication (Original: Zeilen 46-48) : Siehe oben.
-Money.java Zeilen 66-70: Duplication (Original: Zeilen 46-48) : Siehe oben.
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\domainprimitives\ZipCode.java
+[ZipCode.java] [15-17]: [dead code] : Der Konstruktor ist leer und enthält einen TODO-Kommentar zum Löschen.
 
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\masterdata\FactoryMethodInvoker.java
-FactoryMethodInvoker.java Zeilen 23-48: Duplication (Original: Zeilen 51-79) : Die vier Factory-Methoden (instantiateEmail, instantiateAddress, instantiateZipCode, instantiateMoney) folgen demselben Muster mit nur geringen Unterschieden.
-FactoryMethodInvoker.java Zeilen 51-79: Duplication (Original: Zeilen 23-48) : Siehe oben.
-FactoryMethodInvoker.java Zeilen 82-107: Duplication (Original: Zeilen 23-48) : Siehe oben.
-FactoryMethodInvoker.java Zeilen 110-135: Duplication (Original: Zeilen 23-48) : Siehe oben.
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\masterdata\FactoryMethodInvoker.java
+[FactoryMethodInvoker.java] [51-79]: [Duplication] [23-48] : Die Logik zur Instanziierung per Reflection (Klasse laden, Methode suchen, invoken, Exception handling) ist fast identisch zur Methode `instantiateEmail`.
+[FactoryMethodInvoker.java] [82-107]: [Duplication] [23-48] : Die Logik zur Instanziierung ist fast identisch zur Methode `instantiateEmail`.
+[FactoryMethodInvoker.java] [110-135]: [Duplication] [23-48] : Die Logik zur Instanziierung ist fast identisch zur Methode `instantiateEmail`.
 
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\customer\application\CustomerRegistrationService.java
-CustomerRegistrationService.java Zeile 34: Negative Conditionals : Negativ formulierte Bedingung (`isEmpty(name) || email == null || address == null`).
-
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\core\FunctionHelper.java
-FunctionHelper.java Zeilen 6-8: Negative Conditionals : Methodenname und Implementierung sind negativ formuliert (`isNegativeOrNull`).
-FunctionHelper.java Zeilen 9-11: Negative Conditionals : Siehe oben.
-FunctionHelper.java Zeilen 13-16: Negative Conditionals : Methodenname und Implementierung sind negativ formuliert (`isLessOrEqualsZero`).
-FunctionHelper.java Zeilen 18-20: Negative Conditionals : Methodenname und Implementierung sind negativ formuliert (`isEmpty`).
-
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\delivery\application\DeliveryService.java
-DeliveryService.java Zeilen 78-85: Duplication (Original: OrderService.java Zeilen 40-48) : Code zum Erstellen einer Map aus Positionslisten wiederholt sich in DeliveryService, OrderService und ShoppingBasketService.
-
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\good\application\GoodCatalogService.java
-GoodCatalogService.java Zeile 36: Negative Conditionals : Negativ formulierte Bedingung (`isLessOrEqualsZero(size)`).
-
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\order\application\OrderService.java
-OrderService.java Zeilen 40-48: Duplication (Original: DeliveryService.java Zeilen 78-85) : Code zum Erstellen einer Map aus Positionslisten wiederholt sich.
-OrderService.java Zeilen 51-62: Duplication (Original: ShoppingBasketService.java Zeilen 122-137) : Code zur Berechnung des Gesamtwerts aus einer Liste von Positionen wiederholt sich.
-
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\payment\application\PaymentService.java
-PaymentService.java Zeilen 59-66: Duplication (Original: ShoppingBasketService.java Zeilen 122-137) : Code zur Summierung von MoneyType wiederholt sich.
-
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\shoppingbasket\application\ShoppingBasketService.java
-ShoppingBasketService.java Zeilen 110-120: Duplication (Original: OrderService.java Zeilen 40-48) : Code zum Erstellen einer Map aus Positionslisten wiederholt sich.
-ShoppingBasketService.java Zeilen 122-137: Duplication (Original: OrderService.java Zeilen 51-62) : Code zur Berechnung des Gesamtwerts aus einer Liste von Positionen wiederholt sich.
-ShoppingBasketService.java Zeilen 220-248: Misplaced Responsibility : Die Methode updateReservedGoods ist sehr komplex und gehört eher in eine dedizierte Domain Service Klasse für Reservierungslogik.
-ShoppingBasketService.java Zeilen 1-308: Layer Violation : Die Klasse greift direkt auf Repositories anderer Domains (GoodRepository) über GoodService zu. Dies sollte über Domain Services erfolgen.
-
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\shoppingbasket\domain\ReservedGood.java
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\customer\domain\Customer.java
 -Anemic Entity-
 
-### C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\shoppingbasket\domain\ShoppingBasket.java
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\delivery\application\DeliveryService.java
+[DeliveryService.java] [63]: [missplaced resonsibility] : Der `DeliveryService` ändert direkt den Status einer Entität (`ShoppingBasket`) aus einem anderen Bounded Context. Diese Zustandsänderung sollte im `ShoppingBasket`-Kontext liegen.
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\delivery\domain\Delivery.java
 -Anemic Entity-
 
----
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\delivery\domain\DeliveryPosition.java
+-Anemic Entity-
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\order\application\OrderRESTController.java
+[OrderRESTController.java] [39]: [Duplication] [28] : Der Aufruf `orderService.getAllOrdersForCustomerEmail(Email.of(email))` wird identisch wiederholt.
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\order\domain\Order.java
+-Anemic Entity-
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\order\domain\OrderPosition.java
+-Anemic Entity-
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\payment\application\PaymentService.java
+[PaymentService.java] [46]: [missplaced resonsibility] : Der `PaymentService` ändert direkt den Status des `ShoppingBasket`. Dies verletzt die Grenzen der Services; der PaymentService sollte nicht direkt Entitäten anderer Domänen manipulieren.
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\payment\domain\Payment.java
+-Anemic Entity-
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\shoppingbasket\application\ShoppingBasketRESTController.java
+[ShoppingBasketRESTController.java] [88]: [layer violation] : Der Controller greift direkt auf das `ReservedGoodRepository` der Domänenschicht zu. Der Zugriff sollte ausschließlich über die Applikationsschicht (Service) erfolgen.
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\shoppingbasket\application\ShoppingBasketService.java
+[ShoppingBasketService.java] [186-194]: [missplaced resonsibility] : Der `ShoppingBasketService` enthält Logik zum Erstellen und Persistieren von `Order` und `OrderPosition` Entitäten. Diese Verantwortung liegt im `Order`-Kontext (z.B. `OrderService`).
+[ShoppingBasketService.java] [245]: [dead code] : Auskommentierter Code sollte entfernt werden.
+
+C:\workspace\Masterarbeit\Repositories\Rest\ST2M4_group_4bafcc44-c6a8-4a5d-b1c0-6429aa72b5b3\src\main\java\thkoeln\archilab\ecommerce\solution\shoppingbasket\domain\ShoppingBasket.java
+-Anemic Entity-
 
 ENDE
-Generated by deepseek-reasoner
+Generated by gemini-3-pro-preview
 -----------------------------------

@@ -1,6 +1,6 @@
 [
   {
-    "projektName": "'st2_10'",
+    "projektName": "st2_10",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -98,9 +98,6 @@
         "class": "ShoppingBasketRepository",
         "deadCode": [
           "6-6"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -129,61 +126,7 @@
         ]
       },
       {
-        "class": "DeliveryRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Good",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "GoodRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderPositionRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PaymentRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PersonalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ShoppingBasketPositionRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -193,23 +136,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "UserRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_11'",
+    "projektName": "st2_11",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -260,9 +191,6 @@
         "class": "OrderRepository",
         "deadCode": [
           "5-5"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -312,9 +240,6 @@
         "class": "ShoppingCartRepository",
         "deadCode": [
           "7-7"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -361,12 +286,6 @@
         ]
       },
       {
-        "class": "ClientRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Delivery",
         "anemicEntity": [
           "Class"
@@ -374,30 +293,6 @@
       },
       {
         "class": "DeliveryPart",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "DeliveryRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "HomeAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
         "anemicEntity": [
           "Class"
         ]
@@ -427,12 +322,6 @@
         ]
       },
       {
-        "class": "PaymentRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ShoppingCart",
         "anemicEntity": [
           "Class"
@@ -455,23 +344,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "WareHouseRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_12'",
+    "projektName": "st2_12",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -528,18 +405,6 @@
         ]
       },
       {
-        "class": "AddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ConflictException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Customer",
         "anemicEntity": [
           "Class"
@@ -547,18 +412,6 @@
       },
       {
         "class": "CustomerId",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CustomerRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CustomerTypeImpl",
         "anemicEntity": [
           "Class"
         ]
@@ -576,12 +429,6 @@
         ]
       },
       {
-        "class": "MailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Merchandise",
         "anemicEntity": [
           "Class"
@@ -589,24 +436,6 @@
       },
       {
         "class": "MerchandiseId",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MerchandiseRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "NotFoundException",
         "anemicEntity": [
           "Class"
         ]
@@ -636,12 +465,6 @@
         ]
       },
       {
-        "class": "PurchaseRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ShoppingCartId",
         "anemicEntity": [
           "Class"
@@ -660,12 +483,6 @@
         ]
       },
       {
-        "class": "ShoppingCartRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "StorageUnitComparator",
         "anemicEntity": [
           "Class"
@@ -676,23 +493,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "UnprocessableException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_13'",
+    "projektName": "st2_13",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -891,43 +696,7 @@
         ]
       },
       {
-        "class": "GoodRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PersonalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "User",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "UserRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
         "anemicEntity": [
           "Class"
         ]
@@ -935,7 +704,7 @@
     ]
   },
   {
-    "projektName": "'st2_14'",
+    "projektName": "st2_14",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -998,9 +767,6 @@
         "deadCode": [
           "6-6",
           "8-8"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -1035,31 +801,7 @@
         ]
       },
       {
-        "class": "CartPositionRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Delivery",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "DeliveryRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
         "anemicEntity": [
           "Class"
         ]
@@ -1071,25 +813,7 @@
         ]
       },
       {
-        "class": "OrderRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Payment",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PaymentRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PersonalAddressType",
         "anemicEntity": [
           "Class"
         ]
@@ -1101,19 +825,7 @@
         ]
       },
       {
-        "class": "ShoppingCartRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Thing",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ThingRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -1123,17 +835,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_15'",
+    "projektName": "st2_15",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -1211,18 +917,6 @@
         ]
       },
       {
-        "class": "EmailType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Order",
         "anemicEntity": [
           "Class"
@@ -1235,31 +929,7 @@
         ]
       },
       {
-        "class": "OrderPositionRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Payment",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PersonalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PostalCodeType",
         "anemicEntity": [
           "Class"
         ]
@@ -1277,19 +947,7 @@
         ]
       },
       {
-        "class": "ShoppingBasketRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "User",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "UserRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -1297,7 +955,7 @@
     ]
   },
   {
-    "projektName": "'st2_16'",
+    "projektName": "st2_16",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -1382,30 +1040,6 @@
         ]
       },
       {
-        "class": "ClientNotFoundException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ClientRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailMissingException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "FulfillmentCenterComparator",
         "anemicEntity": [
           "Class"
@@ -1437,18 +1071,6 @@
       },
       {
         "class": "ItemIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ItemRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
         "anemicEntity": [
           "Class"
         ]
@@ -1490,12 +1112,6 @@
         ]
       },
       {
-        "class": "PhysicalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ShoppingBasketId",
         "anemicEntity": [
           "Class"
@@ -1520,12 +1136,6 @@
         ]
       },
       {
-        "class": "ShoppingBasketRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "StockLevelId",
         "anemicEntity": [
           "Class"
@@ -1536,17 +1146,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_17'",
+    "projektName": "st2_17",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -1565,18 +1169,12 @@
         "class": "OrderJpaRepository",
         "deadCode": [
           "8-8"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
         "class": "OrderRepository",
         "deadCode": [
           "7-7"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -1589,9 +1187,6 @@
         "class": "ProductRepository",
         "deadCode": [
           "4-4"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -1617,18 +1212,12 @@
         "class": "ShoppingCartJpaRepository",
         "deadCode": [
           "8-8"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
         "class": "ShoppingCartRepository",
         "deadCode": [
           "7-7"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -1636,18 +1225,12 @@
         "deadCode": [
           "6-6",
           "9-9"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
         "class": "UserRepository",
         "deadCode": [
           "4-4"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -1676,9 +1259,6 @@
         "class": "WarehouseRepository",
         "deadCode": [
           "4-4"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -1714,24 +1294,6 @@
         "class": "UserRESTTest",
         "deadCode": [
           "88-88"
-        ]
-      },
-      {
-        "class": "AddressLocationType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CurrencyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailAddressType",
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -1778,12 +1340,6 @@
       },
       {
         "class": "OrderPartIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PostalCodeType",
         "anemicEntity": [
           "Class"
         ]
@@ -1869,7 +1425,7 @@
     ]
   },
   {
-    "projektName": "'st2_18'",
+    "projektName": "st2_18",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -1882,9 +1438,6 @@
         "class": "ClientRepository",
         "deadCode": [
           "4-4"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -1929,9 +1482,6 @@
         "deadCode": [
           "4-4",
           "8-8"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -2047,18 +1597,6 @@
         ]
       },
       {
-        "class": "EmailDTO",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ItemId",
         "anemicEntity": [
           "Class"
@@ -2066,12 +1604,6 @@
       },
       {
         "class": "ItemIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
         "anemicEntity": [
           "Class"
         ]
@@ -2114,18 +1646,6 @@
       },
       {
         "class": "OrderPositionId",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PhysicalAddressDTO",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PhysicalAddressType",
         "anemicEntity": [
           "Class"
         ]
@@ -2183,29 +1703,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "StockLevelRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeDTO",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_19'",
+    "projektName": "st2_19",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -2244,36 +1746,6 @@
         ]
       },
       {
-        "class": "AddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ConflictException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CurrencyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "InsufficientInventoryException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "InventoryLevel",
         "anemicEntity": [
           "Class"
@@ -2292,12 +1764,6 @@
         ]
       },
       {
-        "class": "InventoryLevelRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Item",
         "anemicEntity": [
           "Class"
@@ -2311,18 +1777,6 @@
       },
       {
         "class": "ItemIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MethodNotAllowedException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "NotFoundException",
         "anemicEntity": [
           "Class"
         ]
@@ -2364,18 +1818,6 @@
         ]
       },
       {
-        "class": "OrderPositionRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ShoppingCartId",
         "anemicEntity": [
           "Class"
@@ -2406,18 +1848,6 @@
         ]
       },
       {
-        "class": "ShoppingCartPositionRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ShoppingCartRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "StorageUnitId",
         "anemicEntity": [
           "Class"
@@ -2425,12 +1855,6 @@
       },
       {
         "class": "StorageUnitIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "UnprocessableEntityException",
         "anemicEntity": [
           "Class"
         ]
@@ -2446,23 +1870,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "UserRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_2'",
+    "projektName": "st2_2",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -2550,30 +1962,6 @@
         ]
       },
       {
-        "class": "EmailType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmptyCartException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PhysicalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ProductId",
         "anemicEntity": [
           "Class"
@@ -2622,12 +2010,6 @@
         ]
       },
       {
-        "class": "ShoppingCartRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "StorageUnitComparator",
         "anemicEntity": [
           "Class"
@@ -2656,23 +2038,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "UserRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_20'",
+    "projektName": "st2_20",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -2752,37 +2122,7 @@
         ]
       },
       {
-        "class": "AddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ConflictException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CustomerRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "DeliveryPart",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "DeliveryRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailType",
         "anemicEntity": [
           "Class"
         ]
@@ -2800,49 +2140,7 @@
         ]
       },
       {
-        "class": "InventoryRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyTypeAdapter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "NotFoundException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "OrderPart",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PaymentRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PostalCodeType",
         "anemicEntity": [
           "Class"
         ]
@@ -2858,17 +2156,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "ShoppingCartRepository",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_3'",
+    "projektName": "st2_3",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -2934,19 +2226,7 @@
         ]
       },
       {
-        "class": "AddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Customer",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CustomerRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -2958,55 +2238,7 @@
         ]
       },
       {
-        "class": "DeliveryPositionRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "DeliveryRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Good",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "GoodRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderPositionRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PaymentRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -3018,25 +2250,7 @@
         ]
       },
       {
-        "class": "ReservedGoodRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ShoppingBasket",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ShoppingBasketRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
         "anemicEntity": [
           "Class"
         ]
@@ -3044,7 +2258,7 @@
     ]
   },
   {
-    "projektName": "'st2_4'",
+    "projektName": "st2_4",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -3134,18 +2348,6 @@
         ]
       },
       {
-        "class": "ConflictException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CurrencyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "FulfillmentCenterFinder",
         "anemicEntity": [
           "Class"
@@ -3159,12 +2361,6 @@
       },
       {
         "class": "FulfillmentInventoryChecker",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "GlobalExceptionHandler",
         "anemicEntity": [
           "Class"
         ]
@@ -3194,30 +2390,6 @@
         ]
       },
       {
-        "class": "MailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "NotFoundException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PhysicalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PostalCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Product",
         "anemicEntity": [
           "Class"
@@ -3237,12 +2409,6 @@
       },
       {
         "class": "ProductLookup",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ProductRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -3273,12 +2439,6 @@
       },
       {
         "class": "PurchasePositionIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PurchaseRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -3326,18 +2486,6 @@
         ]
       },
       {
-        "class": "ShoppingBasketRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "UnprocessableEntityException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "User",
         "anemicEntity": [
           "Class"
@@ -3360,17 +2508,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "UserRepository",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_5'",
+    "projektName": "st2_5",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -3473,12 +2615,6 @@
         ]
       },
       {
-        "class": "AddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Customer",
         "anemicEntity": [
           "Class"
@@ -3492,42 +2628,6 @@
       },
       {
         "class": "CustomerIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CustomerRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "GenericConflictException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "GenericNotFoundException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "GenericUnprocessableEntityException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
         "anemicEntity": [
           "Class"
         ]
@@ -3564,18 +2664,6 @@
       },
       {
         "class": "OrderPartIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderPartRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "OrderRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -3635,18 +2723,6 @@
         ]
       },
       {
-        "class": "ShoppingBasketPartRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ShoppingBasketRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "StockLevel",
         "anemicEntity": [
           "Class"
@@ -3660,12 +2736,6 @@
       },
       {
         "class": "StockLevelIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "StockLevelRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -3687,17 +2757,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_6'",
+    "projektName": "st2_6",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -3744,9 +2808,6 @@
         "deadCode": [
           "5-5",
           "8-8"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -3759,9 +2820,6 @@
         "class": "DeliveryRepository",
         "deadCode": [
           "5-5"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -3800,9 +2858,6 @@
         "class": "OrderRepository",
         "deadCode": [
           "6-6"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -3871,18 +2926,12 @@
         "class": "ShoppingCartPartRepository",
         "deadCode": [
           "6-6"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
         "class": "ShoppingCartRepository",
         "deadCode": [
           "6-6"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -3911,49 +2960,7 @@
         ]
       },
       {
-        "class": "AddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "InventoryRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ItemRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "OrderPart",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PaymentRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PostalCodeType",
         "anemicEntity": [
           "Class"
         ]
@@ -3961,7 +2968,7 @@
     ]
   },
   {
-    "projektName": "'st2_7'",
+    "projektName": "st2_7",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -3974,9 +2981,6 @@
         "class": "InsufficientMerchandiseInventoryException",
         "deadCode": [
           "6-6"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -4059,24 +3063,6 @@
         ]
       },
       {
-        "class": "CustomerNotFoundException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CustomerRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmptyNameException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "FulfillmentCenterId",
         "anemicEntity": [
           "Class"
@@ -4084,24 +3070,6 @@
       },
       {
         "class": "FulfillmentCenterIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "FulfillmentCenterRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "InvalidMailAddressException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "InvalidPhysicalAddressException",
         "anemicEntity": [
           "Class"
         ]
@@ -4125,18 +3093,6 @@
         ]
       },
       {
-        "class": "MailAddressInUseException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Merchandise",
         "anemicEntity": [
           "Class"
@@ -4155,36 +3111,6 @@
         ]
       },
       {
-        "class": "MerchandiseNotFoundException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MerchandiseRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "NegativeQuantityException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PhysicalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "PurchaseId",
         "anemicEntity": [
           "Class"
@@ -4192,12 +3118,6 @@
       },
       {
         "class": "PurchaseIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PurchaseNotFoundException",
         "anemicEntity": [
           "Class"
         ]
@@ -4221,12 +3141,6 @@
         ]
       },
       {
-        "class": "PurchaseRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ShoppingCartId",
         "anemicEntity": [
           "Class"
@@ -4234,12 +3148,6 @@
       },
       {
         "class": "ShoppingCartIdConverter",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ShoppingCartNotFoundException",
         "anemicEntity": [
           "Class"
         ]
@@ -4261,23 +3169,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "ShoppingCartRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ZipCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_8'",
+    "projektName": "st2_8",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -4370,18 +3266,6 @@
         ]
       },
       {
-        "class": "MailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Order",
         "anemicEntity": [
           "Class"
@@ -4400,18 +3284,6 @@
         ]
       },
       {
-        "class": "PersonalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PostalCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Product",
         "anemicEntity": [
           "Class"
@@ -4422,17 +3294,11 @@
         "anemicEntity": [
           "Class"
         ]
-      },
-      {
-        "class": "UserTypeImplementation",
-        "anemicEntity": [
-          "Class"
-        ]
       }
     ]
   },
   {
-    "projektName": "'st2_9'",
+    "projektName": "st2_9",
     "llm": "SonarQube",
     "codeSmells": [
       {
@@ -4477,9 +3343,6 @@
         "class": "ShoppingBasketRepository",
         "deadCode": [
           "7-7"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -4525,18 +3388,6 @@
         ]
       },
       {
-        "class": "ConflictException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CurrencyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "DepotComparator",
         "anemicEntity": [
           "Class"
@@ -4544,36 +3395,6 @@
       },
       {
         "class": "DepotId",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "DepotRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MethodNotAllowedException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PhysicalAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PostalCodeType",
         "anemicEntity": [
           "Class"
         ]
@@ -4639,12 +3460,6 @@
         ]
       },
       {
-        "class": "PurchaseRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "ShoppingBasketId",
         "anemicEntity": [
           "Class"
@@ -4705,12 +3520,6 @@
         ]
       },
       {
-        "class": "UnprocessableEntityException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "User",
         "anemicEntity": [
           "Class"
@@ -4730,12 +3539,6 @@
       },
       {
         "class": "UserNotFoundException",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "UserRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -4791,9 +3594,6 @@
         "class": "GoodRepository",
         "deadCode": [
           "6-6"
-        ],
-        "anemicEntity": [
-          "Class"
         ]
       },
       {
@@ -4880,25 +3680,7 @@
         ]
       },
       {
-        "class": "AllowedCurrencies",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "CatalogRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Client",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ClientRepository",
         "anemicEntity": [
           "Class"
         ]
@@ -4910,73 +3692,13 @@
         ]
       },
       {
-        "class": "DeliveryRecipientClientRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "DeliveryRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "EmailType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "HomeAddressType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "MoneyType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Order",
         "anemicEntity": [
           "Class"
         ]
       },
       {
-        "class": "OrderRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "PostalCodeType",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ShoppingBasketPositionRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "ShoppingBasketRepository",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
         "class": "Warehouse",
-        "anemicEntity": [
-          "Class"
-        ]
-      },
-      {
-        "class": "WarehouseRepository",
         "anemicEntity": [
           "Class"
         ]

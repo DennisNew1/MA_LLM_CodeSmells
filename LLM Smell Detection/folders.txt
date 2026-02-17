@@ -1,8 +1,3 @@
-C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_443f9afe-ac24-4aa3-8040-fea4e3c736ed
-C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_459e83ee-ce50-47b6-8983-fe1c7a14524e
-C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_867df21d-ce4c-427f-b145-f14f32397be2
-C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_3794b9ff-0ba3-4617-b77d-7ab0222bfe8e
-C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_d3138f7e-fadb-4551-86c0-a1828ff2ccf4
-C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_df8e7cda-fb2b-4d96-9740-6dd403d22563
-C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_e65b9b6a-b74d-481b-b418-a4ed941ec83a
-C:/workspace/Masterarbeit/Repositories/Rest/ST2M4_group_f3a01ef6-4afc-4868-8c21-be2d7968e05d
+
+C:/workspace/Masterarbeit/Repositories/ST2M4_group_13fb5450-bcb2-4392-bce6-c331d6d2b317
+C:/workspace/Masterarbeit/Repositories/ST2M4_group_2767082b-b468-438e-b617-5205499d6937

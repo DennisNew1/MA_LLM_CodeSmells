@@ -20,11 +20,12 @@ let geminiModel; // dont set
 const REASONING = true; // LLM soll einene Grund geben warum es zu diesem Smell kam. 
 const ADD_LINE_NUMBERS = true; //true = Mit Zeilennummern, false = Ohne
 const MAXTOKEN = 15000 // Daumenregel Tokens * 3 (DeepSeek) ODER 4 (Claude / Gemini) = max Buchstabenlänge der Antwort https://api-docs.deepseek.com/quick_start/token_usage UND https://platform.claude.com/docs/en/about-claude/pricing UND https://ai.google.dev/gemini-api/docs/tokens?hl=de&lang=python
+const LOSSFUNCTION = true;  // Anderer Prompt für Hypothese 3
 
 // An welche LLM? Nur gemini geht im Testmodus
-const GEMINI = true;
+const GEMINI = false;
 const CLAUDE = false;
-const DEEPSEEK = false;
+const DEEPSEEK = true;
 
 const REPO_LIST_FILE = "folders.txt";
 // Folder Crawler Einstellungen
@@ -178,16 +179,107 @@ async function runAnalysis(targetDir) {
         "Anemic Entity: Domain Entities in der Domainschicht die nur über Getter oder Setter verfügen aber sonst keine Funktionen. Ausgenommen sind Repositories. Für diesen Smell brauchst du keinen Zeilenangabe, da er für die gesamte Klasse gilt. Schreib einfach nur einmal -Anemic Entity- sonst zu der enstrechenden Datei"
         ];
 
-    const instruction = `Du bist ein erfahrener Java-Reviewer.
+    const normalInstruction = `Du bist ein erfahrener Java-Reviewer".
         Architektur: 4-Layer (Eric Evans).
         Aufgabe: Finde folgende Smells: ${smells.join(" ")}.
         Regeln:
         1. ${REASONING ? "Begründe kurz jeden Fund." : "KEINE Begründungen."}
-        4. Gruppiere nach Datei (mit Pfad). 
-        2. Format unter der Datei je Smell: [Dateiname (ohne Pfad)] [Zeile(n) X]: [Smell] [Nur bei Duplizierung: die original Zeile(n)] ${REASONING ? ": [Begründung]" : ""}.
+        2. Gruppiere nach Datei (mit Pfad). 
         3. Keine Code-Wiederholung, nur Referenzen.
-        5. Wenn fertig, schreibe "ENDE". 
-        ${ADD_LINE_NUMBERS ? "6. Nutze die Zeilenangaben die mitgeschickt worden sind." : ""}`;
+        ${ADD_LINE_NUMBERS ? "4. Nutze die Zeilenangaben die mitgeschickt worden sind." : ""}
+        5. Formatiere die Antwort als Json mit folgender Struktur: 
+        {
+        "projektName": "ProjektordnerName",
+        "llm": "NameDerLLM",s
+        "codeSmells": [
+            {
+            "class": "FactoryMethodInvoker",
+            "duplication": [
+                { 
+                "line": "33", 
+                "reasoning": "Identische Logik zur Instanziierung wird hier wiederholt." 
+                },
+                { 
+                "line": "44", 
+                "reasoning": "Redundanter Aufruf, der bereits in Zeile 33 abgedeckt ist." 
+                }
+            ],
+            "deadCode": [
+                { 
+                "line": "139-139", 
+                "reasoning": "Diese Methode wird im gesamten Projektkontext nicht aufgerufen." 
+                }
+            ]
+            },
+            {
+            "class": "InitialMasterDataCreator",
+            "deadCode": [
+                { 
+                "line": "4-4", 
+                "reasoning": "Import-Statement für eine Bibliothek, die nicht mehr verwendet wird." 
+                },
+                { 
+                "line": "165-165", 
+                "reasoning": "Variable wurde deklariert, aber der Wert wird nie ausgelesen." 
+                }
+            ]
+            }
+        ]
+        }
+        `;
+        
+    const lossFunctionInstruction = `Agiere als extrem strenger Java Code-Auditor. Dein Ziel ist MAXIMALER RECALL. Es ist viel schlimmer, einen Code Smell zu übersehen (False Negative), als einen zu melden, der keiner ist (False Positive). Wenn du unsicher bist oder es ein Grenzfall ist: MELDE IHN TROTZDEM und markiere ihn als 'Verdacht'. Sei lieber übervorsichtig als nachlässig.
+        Architektur: 4-Layer (Eric Evans).
+        Aufgabe: Finde folgende Smells: ${smells.join(" ")}.
+        Regeln:
+        1. ${REASONING ? "Begründe kurz jeden Fund." : "KEINE Begründungen."}
+        2. Gruppiere nach Datei (mit Pfad). 
+        3. Keine Code-Wiederholung, nur Referenzen.
+        ${ADD_LINE_NUMBERS ? "4. Nutze die Zeilenangaben die mitgeschickt worden sind." : ""}
+        5. Formatiere die Antwort als Json mit folgender Struktur: 
+        {
+        "projektName": "ProjektordnerName",
+        "llm": "NameDerLLM",
+        "codeSmells": [
+            {
+            "class": "FactoryMethodInvoker",
+            "duplication": [
+                { 
+                "line": "33", 
+                "reasoning": "Identische Logik zur Instanziierung wird hier wiederholt." 
+                },
+                { 
+                "line": "44", 
+                "reasoning": "Redundanter Aufruf, der bereits in Zeile 33 abgedeckt ist." 
+                }
+            ],
+            "deadCode": [
+                { 
+                "line": "139-139", 
+                "reasoning": "Diese Methode wird im gesamten Projektkontext nicht aufgerufen." 
+                }
+            ]
+            },
+            {
+            "class": "InitialMasterDataCreator",
+            "deadCode": [
+                { 
+                "line": "4-4", 
+                "reasoning": "Import-Statement für eine Bibliothek, die nicht mehr verwendet wird." 
+                },
+                { 
+                "line": "165-165", 
+                "reasoning": "Variable wurde deklariert, aber der Wert wird nie ausgelesen." 
+                }
+            ]
+            }
+        ]
+        }
+        `;
+
+    const instruction = LOSSFUNCTION ? lossFunctionInstruction : normalInstruction;    
+
+
     // Zielordner (Aktueller Ordner ".")
     const projectName = path.basename(targetDir);
     
@@ -238,14 +330,13 @@ async function runAnalysis(targetDir) {
                 model: modelName,
                 max_tokens: MAXTOKEN,
                 messages: [{ role: "user", content: prompt }],
-                stream: true, // HIER: Streaming aktiviert
+                stream: true, // Streaming aktivieren
             });
 
-            // Wir hören den Stream ab, sagen aber nichts
             for await (const event of stream) {
                 if (event.type === 'content_block_delta') {
                     const chunkText = event.delta.text;
-                    text += chunkText; // Nur sammeln, nicht drucken!
+                    text += chunkText; 
                 }
             }
 
@@ -267,7 +358,7 @@ async function runAnalysis(targetDir) {
             const completion = await deepSeekAI.chat.completions.create({
                 model: modelName,
                 messages: [{ role: "user", content: prompt }],
-                stream: false, // Explizit ausschalten
+                stream: false, 
                 max_tokens: MAXTOKEN,
             });
 

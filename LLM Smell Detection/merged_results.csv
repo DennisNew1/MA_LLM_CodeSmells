@@ -1,0 +1,1206 @@
+Projekt;Klasse;Smell;Claude;DeepSeek;Gemini;SonarQube
+st2_10;FactoryMethodInvoker;duplication;;24-48, 51-79, 82-107, 110-135;;33-33, 44-44
+st2_10;FactoryMethodInvoker;deadCode;;;;139-139
+st2_10;InitialMasterDataCreator;deadCode;;;;4-4, 5-5, 6-6, 165-165
+st2_10;DeliveryService;deadCode;35;;;86-86
+st2_10;DeliveryService;sharedPersistency;25-26;;26;
+st2_10;DeliveryService;duplication;;;37-41;
+st2_10;DeliveryService;layerViolation;;;59;
+st2_10;OrderApplicationService;deadCode;14-16;;;104-104
+st2_10;OrderApplicationService;sharedPersistency;28-29;;29;
+st2_10;OrderApplicationService;duplication;104;;46-56;
+st2_10;OrderApplicationService;misplacedResponsibility;;;103, 119;
+st2_10;OrderController;deadCode;17-20, 11-12;;29, 31;3-3, 5-5, 6-6, 8-8, 9-9, 10-10, 13-13, 14-14, 15-15, 18-18, 19-19, 20-20
+st2_10;OrderController;layerViolation;13-14;;;
+st2_10;OrderDTO;deadCode;;;;9-9, 10-10, 11-11, 12-12, 14-14
+st2_10;OrderPositionDTO;deadCode;;;;7-7
+st2_10;Order;deadCode;;;;7-7
+st2_10;Order;anemicEntity;Class;Class;Class;
+st2_10;ShoppingBasketApplicationService;deadCode;50, 198-241;;198-241;50-50, 85-85, 85-86
+st2_10;ShoppingBasketApplicationService;sharedPersistency;43-47;;40, 42, 44, 48;
+st2_10;ShoppingBasketApplicationService;misplacedResponsibility;;;50;
+st2_10;ShoppingBasketDTO;deadCode;;;;8-8, 10-10
+st2_10;ShoppingBasketPositionDTO;deadCode;;;;7-7
+st2_10;ShoppingBasketRepository;deadCode;11, 12;;;6-6
+st2_10;E3DDDRulesTest;deadCode;;;;15-15
+st2_10;E3PackageStructureTest;deadCode;;;;9-9
+st2_10;RESTHelper;deadCode;;;;77-77, 78-78
+st2_10;RegressionUserRegistrationTest;deadCode;;;;31-31
+st2_10;Good;anemicEntity;Class;Class;Class;Class
+st2_10;User;anemicEntity;Class;Class;Class;Class
+st2_10;Email;deadCode;7;;;
+st2_10;Money;deadCode;4;;;
+st2_10;Delivery;anemicEntity;Class;Class;Class;
+st2_10;DeliveryRepository;layerViolation;4;;;
+st2_10;GoodService;sharedPersistency;26-27;;26;
+st2_10;GoodService;deadCode;26;;;
+st2_10;GoodService;duplication;;;208-212, 215;
+st2_10;OrderPosition;anemicEntity;Class;Class;Class;
+st2_10;OrderRepository;layerViolation;4;;;
+st2_10;OrderStatus;misplacedResponsibility;1-5;;;
+st2_10;PaymentService;sharedPersistency;23-24, 27-28;;25;
+st2_10;PaymentService;deadCode;22-23;;23, 28;
+st2_10;Payment;anemicEntity;Class;Class;Class;
+st2_10;PaymentRepository;layerViolation;4;;;
+st2_10;PaymentRepository;deadCode;10;;;
+st2_10;ShoppingBasketService;sharedPersistency;35-40, 43-47;;35, 37, 39, 41, 47;
+st2_10;ShoppingBasketService;duplication;179-185, 229-236;;179-196, 230-249;
+st2_10;ShoppingBasketService;negativeConditionals;348, 366-368;;;
+st2_10;ShoppingBasketService;misplacedResponsibility;;;374;
+st2_10;ShoppingBasket;anemicEntity;Class;Class;Class;
+st2_10;ShoppingBasket;deadCode;36-38;;;
+st2_10;ShoppingBasketPosition;anemicEntity;Class;Class;Class;
+st2_10;UserService;negativeConditionals;33;;;
+st2_10;UserService;duplication;;;52;
+st2_10;UserRepository;deadCode;10-11;;;
+st2_10;UserBasketInterface;deadCode;1-13;1-13;;
+st2_11;ZipCodePrimitive;deadCode;;;;34-34
+st2_11;FactoryMethodInvoker;duplication;;23-48;51-79, 82-107, 110-135;33-33, 44-44
+st2_11;FactoryMethodInvoker;deadCode;;;;139-139
+st2_11;InitialMasterDataCreator;deadCode;;;162-175, 221-228;4-4, 5-5, 6-6, 165-165
+st2_11;DeliveryService;deadCode;;;;67-67
+st2_11;DeliveryService;layerViolation;7;;;
+st2_11;DeliveryService;sharedPersistency;20;;20;
+st2_11;DeliveryService;duplication;;29-42;29-40;
+st2_11;ShoppingCartDeliveryService;deadCode;;;;4-4, 15-15
+st2_11;ShoppingCartDeliveryService;duplication;29-31;;;
+st2_11;OrderService;deadCode;7-13;;7;8-8
+st2_11;OrderRepository;deadCode;;;;5-5
+st2_11;PaymentService;deadCode;;;;42-42, 50-50
+st2_11;PaymentService;negativeConditionals;;;43;43-43
+st2_11;PaymentService;layerViolation;7-8;;;
+st2_11;PaymentService;sharedPersistency;23;;23;
+st2_11;ShoppingCartPaymentService;deadCode;;;;4-4, 5-5, 6-6, 13-13, 14-14, 18-18
+st2_11;ShoppingCartPaymentService;negativeConditionals;;;;28-28
+st2_11;ShoppingCartPaymentService;duplication;28;;;
+st2_11;ShoppingCartDeliveryInterface;deadCode;;;;3-3
+st2_11;ShoppingCartPaymentInterface;deadCode;;;;6-6
+st2_11;ShoppingCartService;deadCode;251;;;161-161, 251-251
+st2_11;ShoppingCartService;duplication;;;80-88, 130-136;
+st2_11;ShoppingCartService;layerViolation;;;241;
+st2_11;ShoppingCartRepository;deadCode;14-15;;;7-7
+st2_11;StockService;duplication;;;84-103;49-49
+st2_11;StockService;layerViolation;5-7;;;
+st2_11;StockService;sharedPersistency;20;;20;
+st2_11;ThingWareHouseService;deadCode;;;;3-3
+st2_11;E3DDDRulesTest;deadCode;;;;15-15
+st2_11;E3PackageStructureTest;deadCode;;;;9-9
+st2_11;RESTHelper;deadCode;;;;77-77, 78-78
+st2_11;RegressionClientRegistrationTest;deadCode;;;;31-31
+st2_11;Client;anemicEntity;Class;Class;Class;Class
+st2_11;Delivery;anemicEntity;Class;Class;Class;Class
+st2_11;DeliveryPart;anemicEntity;;;;Class
+st2_11;Order;anemicEntity;Class;Class;Class;Class
+st2_11;OrderClient;anemicEntity;;;;Class
+st2_11;OrderClient;deadCode;1-16;;;
+st2_11;OrderPart;anemicEntity;;;;Class
+st2_11;Payment;anemicEntity;Class;Class;Class;Class
+st2_11;ShoppingCart;anemicEntity;Class;Class;Class;Class
+st2_11;ShoppingCartPart;anemicEntity;;;;Class
+st2_11;Thing;anemicEntity;Class;Class;Class;Class
+st2_11;WareHouse;anemicEntity;Class;Class;Class;Class
+st2_11;OrderClientService;layerViolation;6;;;
+st2_11;OrderClientService;sharedPersistency;12;;;
+st2_11;ShoppingCartClientService;layerViolation;7;;;
+st2_11;ShoppingCartClientService;sharedPersistency;15;;;
+st2_11;ThingShoppingCartService;layerViolation;5;;;
+st2_11;ThingShoppingCartService;sharedPersistency;12;;;
+st2_11;WareHouseThingService;layerViolation;5-6;;;
+st2_11;WareHouseThingService;sharedPersistency;13;;;
+st2_11;OrderThingService;layerViolation;5;;;
+st2_11;ShoppingCartController;duplication;129-131;130;130;
+st2_11;MailAddressPrimitive;duplication;;22;;
+st2_11;ClientRegistrationService;duplication;;29-40, 50-59;50-59;
+st2_11;OrderController;duplication;;66;67;
+st2_11;ZipCodeType;duplication;;35;;
+st2_12;MerchandiseService;deadCode;25;;118-127;25-25
+st2_12;MerchandiseService;duplication;;;;77-77
+st2_12;MerchandiseService;sharedPersistency;;;73-78, 84-88, 95-98;
+st2_12;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_12;FactoryMethodInvoker;deadCode;;;;139-139
+st2_12;CustomerTestHelperImpl;deadCode;;;;13-13
+st2_12;CustomerRESTTest;deadCode;;;;88-88
+st2_12;OwnShoppingCartRESTTest;deadCode;;;;11-11, 14-14, 24-24, 55-55
+st2_12;ShoppingCartRESTTest;deadCode;;;;54-54, 70-70
+st2_12;RulesForOwnTests;deadCode;;;;32-32
+st2_12;Customer;anemicEntity;;;;Class
+st2_12;CustomerId;anemicEntity;;;;Class
+st2_12;InventoryLevel;anemicEntity;;;;Class
+st2_12;InventoryLevelId;anemicEntity;;;;Class
+st2_12;Merchandise;anemicEntity;;Class;Class;Class
+st2_12;MerchandiseId;anemicEntity;;;;Class
+st2_12;Purchase;anemicEntity;;;;Class
+st2_12;PurchaseId;anemicEntity;;;;Class
+st2_12;PurchasePosition;anemicEntity;Class;Class;Class;Class
+st2_12;PurchasePositionId;anemicEntity;;;;Class
+st2_12;ShoppingCartId;anemicEntity;;;;Class
+st2_12;ShoppingCartPosition;anemicEntity;;;;Class
+st2_12;ShoppingCartPositionId;anemicEntity;;;;Class
+st2_12;StorageUnitComparator;anemicEntity;;;;Class
+st2_12;StorageUnitComparator;deadCode;5-17;;;
+st2_12;StorageUnitId;anemicEntity;;;;Class
+st2_12;MailAddress;duplication;;51-53;51-54;
+st2_12;MailAddress;negativeConditionals;;;57;
+st2_12;Money;negativeConditionals;;;34;
+st2_12;CustomerController;misplacedResponsibility;;;43-50;
+st2_12;CustomerController;deadCode;127-140;;;
+st2_12;CustomerController;duplication;;132-134, 137-139;;
+st2_12;CustomerService;deadCode;;;100-102;
+st2_12;CustomerService;duplication;;83;;
+st2_12;PurchaseService;sharedPersistency;31, 44;;31;
+st2_12;PurchaseService;deadCode;;;95-98;
+st2_12;PurchaseService;layerViolation;9-10;;;
+st2_12;ShoppingCartController;layerViolation;269, 271;21, 264;22, 269, 271;
+st2_12;ShoppingCartController;misplacedResponsibility;264-298;;;
+st2_12;ShoppingCartService;sharedPersistency;257-266;;39, 259, 271, 306;
+st2_12;ShoppingCartService;misplacedResponsibility;299-313, 316-352, 354-372;;222-248, 316-352, 354-372;
+st2_12;ShoppingCartService;deadCode;;;252-255;
+st2_12;ShoppingCartService;layerViolation;12-13, 23, 394, 402;;;
+st2_12;ShoppingCartService;duplication;50-68, 91-109, 135-142, 153-160, 178-184;;;
+st2_12;StorageUnitService;sharedPersistency;;;30;
+st2_12;StorageUnitService;deadCode;74;;65-71;
+st2_12;StorageUnitService;duplication;102-116, 127-141, 158-172;124-141, 154-172;127-138, 158-169, 180-189;
+st2_12;CustomerTypeImpl;anemicEntity;Class;;;
+st2_12;MerchandiseRepository;deadCode;13-15;;;
+st2_12;ShoppingCart;duplication;34-44, 46-68;;;
+st2_12;StorageUnitRepository;deadCode;5-7;;;
+st2_13;ZipCode;negativeConditionals;42;;42;42-42
+st2_13;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_13;FactoryMethodInvoker;deadCode;;;;139-139
+st2_13;InitialMasterDataCreator;deadCode;;;;4-4, 5-5, 6-6, 165-165
+st2_13;UserDeliveryInterface;deadCode;;;;4-4
+st2_13;UserDeliveryInterface;layerViolation;4;;;
+st2_13;Delivery;deadCode;;;;4-4
+st2_13;Delivery;anemicEntity;Class;Class;Class;
+st2_13;DeliveryPosition;deadCode;;;;7-7, 8-8
+st2_13;DeliveryPosition;anemicEntity;Class;;Class;
+st2_13;Good;deadCode;;;;5-5, 6-6, 9-9, 10-10
+st2_13;OrderDTO;deadCode;;;;6-6, 10-10
+st2_13;OrderPositionDTO;deadCode;;;;6-6, 7-7, 8-8, 10-10, 11-11, 12-12
+st2_13;OrderService;deadCode;;;40;18-18
+st2_13;OrderService;duplication;;;46-50;
+st2_13;Order;deadCode;;;;9-9, 11-11
+st2_13;Order;anemicEntity;;Class;Class;Class
+st2_13;OrderPosition;deadCode;;;;3-3, 7-7, 10-10, 11-11
+st2_13;OrderPosition;anemicEntity;Class;Class;Class;Class
+st2_13;OrderRepository;deadCode;;;;6-6
+st2_13;Payment;deadCode;;;;5-5, 7-7, 11-11, 12-12
+st2_13;Payment;anemicEntity;Class;Class;Class;Class
+st2_13;ShoppingBasketDTO;deadCode;;;;8-8, 9-9, 10-10, 12-12, 13-13
+st2_13;ShoppingBasketPositionDTO;deadCode;;;;5-5, 7-7
+st2_13;ShoppingBasketPositionDTOMapperService;deadCode;;;;5-5
+st2_13;ShoppingBasketRestController;deadCode;;54-56;;18-18, 20-20
+st2_13;ShoppingBasketRestController;misplacedResponsibility;;;52-66;
+st2_13;ShoppingBasketRestController;duplication;;;121-123;
+st2_13;UserServiceInterface;deadCode;;;;6-6, 8-8, 11-11, 13-13, 15-15, 16-16
+st2_13;UserServiceInterface;layerViolation;6-11;;;
+st2_13;ShoppingBasketPosition;deadCode;;;;8-8
+st2_13;ShoppingBasketPosition;anemicEntity;Class;Class;Class;
+st2_13;E3DDDRulesTest;deadCode;;;;15-15
+st2_13;E3PackageStructureTest;deadCode;;;;9-9
+st2_13;RESTHelper;deadCode;;;;77-77, 78-78
+st2_13;RegressionUserRegistrationTest;deadCode;;;;31-31
+st2_13;Address;anemicEntity;;Class;;Class
+st2_13;Address;deadCode;1-28;;;
+st2_13;User;anemicEntity;;;Class;Class
+st2_13;Money;duplication;46-51, 65-70, 105-110;46-51, 105-110;65-70, 105-110;
+st2_13;Money;negativeConditionals;42;;;
+st2_13;DeliveryServiceInterface;deadCode;1-5;;;
+st2_13;PaymentServiceInterface;deadCode;1-5;;;
+st2_13;ShoppingBasketService;duplication;73-100, 116-135, 150-166, 181-197;;117-122, 151-159, 183-191;
+st2_13;ShoppingBasketService;deadCode;;;56, 400, 411, 421;
+st2_13;ShoppingBasketService;sharedPersistency;;;205;
+st2_13;ShoppingBasketService;misplacedResponsibility;;;316;
+st2_13;GoodService;duplication;167-176, 193-209, 226-237;;;
+st2_13;GoodService;deadCode;;91-108;31;
+st2_13;GoodService;sharedPersistency;;;31;
+st2_13;GoodService;misplacedResponsibility;;;198-208;
+st2_13;InventoryToUserBasketServiceInterface;layerViolation;3;;;
+st2_13;UserDeliveryPaymentService;sharedPersistency;12;;34;
+st2_13;UserDeliveryPaymentService;misplacedResponsibility;;;20;
+st2_13;OrderRestController;misplacedResponsibility;17;;36-38, 40-48;
+st2_13;DeliveryService;deadCode;;44-46;;
+st2_13;DeliveryService;duplication;;;53-64;
+st2_13;DeliveryService;misplacedResponsibility;;;44;
+st2_13;ShoppingBasket;deadCode;;53-56;53-55;
+st2_13;GoodRepository;misplacedResponsibility;;Class;14-61;
+st2_13;UserRepository;misplacedResponsibility;;Class;29-91;
+st2_13;PaymentService;sharedPersistency;;;77, 56;
+st2_13;UserLessService;duplication;;;16;
+st2_13;UserLessService;sharedPersistency;;;26-29;
+st2_13;UserService;duplication;;;73-75;
+st2_13;UserService;misplacedResponsibility;;;125-133;
+st2_14;FactoryMethodInvoker;duplication;;51-79, 82-107, 110-135;51-79, 82-107, 110-135;33-33, 44-44
+st2_14;FactoryMethodInvoker;deadCode;;;;139-139
+st2_14;InitialMasterDataCreator;deadCode;;;;4-4, 5-5, 6-6, 165-165
+st2_14;OrderDTO;deadCode;;;;9-9
+st2_14;OrderRESTController;deadCode;;;;4-4, 9-9
+st2_14;OrderRESTController;negativeConditionals;;;32;
+st2_14;OrderPosition;deadCode;;;;8-8
+st2_14;OrderPosition;anemicEntity;;;Class;
+st2_14;OrderPosition;layerViolation;4;;;
+st2_14;ShoppingCartRESTController;deadCode;75-78;75-78;114-119, 136-137;27-27, 116-116, 116-118, 136-136
+st2_14;ShoppingCartRESTController;misplacedResponsibility;;;56-97;
+st2_14;ShoppingCartRESTController;layerViolation;;;59-60;
+st2_14;ShoppingCartRESTController;duplication;114-125, 136-141;;123-126, 141-142;
+st2_14;ShoppingCartService;deadCode;241-250;241-251;241-251;80-80, 109-109, 241-241
+st2_14;ShoppingCartService;duplication;;103-130;106-127;
+st2_14;ShoppingCartService;layerViolation;10-11, 19;;;
+st2_14;UserRepository;deadCode;8;;;6-6, 8-8
+st2_14;E3DDDRulesTest;deadCode;;;;15-15
+st2_14;E3PackageStructureTest;deadCode;;;;9-9
+st2_14;RESTHelper;deadCode;;;;77-77, 78-78
+st2_14;RegressionUserRegistrationTest;deadCode;;;;31-31
+st2_14;CartPosition;anemicEntity;;Class;Class;Class
+st2_14;CartPosition;layerViolation;8;;;
+st2_14;Delivery;anemicEntity;Class;Class;Class;Class
+st2_14;Order;anemicEntity;;;;Class
+st2_14;Order;layerViolation;8;;;
+st2_14;Payment;anemicEntity;Class;Class;Class;Class
+st2_14;ShoppingCart;anemicEntity;Class;Class;Class;Class
+st2_14;Thing;anemicEntity;;;;Class
+st2_14;User;anemicEntity;;;;Class
+st2_14;Money;duplication;38-39;;45-46, 59-60;
+st2_14;Money;negativeConditionals;61-62;61-62;;
+st2_14;AbstractUser;anemicEntity;;;Class;
+st2_14;OrderService;deadCode;;;60-62, 64-72;
+st2_14;OrderService;layerViolation;12, 14;;;
+st2_14;OrderService;duplication;;64-72;;
+st2_14;DeliveryService;layerViolation;7;;;
+st2_14;DeliveryService;sharedPersistency;38;;;
+st2_14;PaymentService;layerViolation;8;;;
+st2_14;ShoppingCartRepository;layerViolation;5;;;
+st2_14;ThingRepository;deadCode;10;;;
+st2_15;FactoryMethodInvoker;duplication;;23-48, 51-79, 82-107, 110-135, 138-149;51-79, 82-107, 110-135;33-33, 44-44
+st2_15;FactoryMethodInvoker;deadCode;;;147;139-139
+st2_15;InitialMasterDataCreator;deadCode;;85, 162-175;162-175, 221-228;4-4, 5-5, 6-6, 165-165
+st2_15;OrderController;deadCode;;;;42-42
+st2_15;OrderController;duplication;;;46;
+st2_15;OrderPositionService;deadCode;;;;98-98
+st2_15;OrderPositionService;duplication;43-52;43-52, 54-68;61-63;
+st2_15;OrderPositionService;misplacedResponsibility;;92-107;;
+st2_15;ShoppingBasketController;deadCode;;;;40-40
+st2_15;ShoppingBasketController;duplication;67-74, 137-143, 185-191, 213-218;;45;
+st2_15;ShoppingBasketController;misplacedResponsibility;;;130-178;
+st2_15;E3DDDRulesTest;deadCode;;;;15-15
+st2_15;E3PackageStructureTest;deadCode;;;;9-9
+st2_15;RESTHelper;deadCode;;;;77-77, 78-78
+st2_15;RegressionUserRegistrationTest;deadCode;;;;31-31
+st2_15;AbstractOrderPosition;anemicEntity;;;;Class
+st2_15;AbstractProduct;anemicEntity;;;;Class
+st2_15;Order;anemicEntity;Class;Class;Class;Class
+st2_15;OrderPosition;anemicEntity;;Class;Class;Class
+st2_15;Payment;anemicEntity;Class;;Class;Class
+st2_15;Product;anemicEntity;Class;Class;Class;Class
+st2_15;ShoppingBasket;anemicEntity;Class;Class;Class;Class
+st2_15;User;anemicEntity;Class;Class;Class;Class
+st2_15;Delivery;anemicEntity;Class;Class;Class;
+st2_15;DeliveryService;duplication;38-48;38-48;38-48;
+st2_15;DeliveryService;misplacedResponsibility;;54-62;;
+st2_15;DeliveryService;negativeConditionals;;66-72;;
+st2_15;ShoppingBasketSpecificOrderPositionService;duplication;91-105;;24-33, 49-54, 98-100;
+st2_15;ShoppingBasketControllerService;duplication;56-67;;56-67;
+st2_15;ShoppingBasketControllerService;deadCode;;44-50;;
+st2_15;ShoppingBasketRepository;deadCode;12;;;
+st2_15;Warehouse;anemicEntity;Class;Class;Class;
+st2_15;InventorySpecificShoppingBasketService;duplication;32-37;;;
+st2_15;InventorySpecificShoppingBasketService;misplacedResponsibility;;;40-49;
+st2_15;UserService;deadCode;36-38;;;
+st2_15;ProductSpecificOrderPositionService;duplication;25-34;;26-33, 43-46;
+st2_15;Email;negativeConditionals;;;46-47;
+st2_15;Money;negativeConditionals;;;63-64;
+st2_15;OrderDtoMapper;duplication;;18-25;21-25;
+st2_15;OrderDtoMapper;misplacedResponsibility;;18-25;;
+st2_15;PaymentService;misplacedResponsibility;;;41-50;
+st2_15;ShoppingBasketInternalService;duplication;;;94-105;
+st2_15;ShoppingBasketService;duplication;;167-179;171-176;
+st2_15;ShoppingBasketService;misplacedResponsibility;;167-179;196-200;
+st2_15;ShoppingBasketService;negativeConditionals;;228-234;;
+st2_15;UserRegistrationService;duplication;;41-57;41-57;
+st2_16;ShoppingBasketAdapterService;duplication;34-42, 49-58;48-57;34-42;88-88
+st2_16;ShoppingBasketService;duplication;56, 69, 133-184, 221-262;221-262;133-184, 164-166, 191-193;58-58, 73-73
+st2_16;ShoppingBasketService;layerViolation;11, 12-13;;;
+st2_16;ShoppingBasketService;sharedPersistency;37, 107, 135;;34, 35, 36;
+st2_16;ShoppingBasketService;deadCode;;;105-131;
+st2_16;ShoppingBasketService;misplacedResponsibility;;;120;
+st2_16;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_16;FactoryMethodInvoker;deadCode;;;;139-139
+st2_16;ClientTestHelperImpl;deadCode;;;;13-13
+st2_16;ClientRESTTest;deadCode;;;;88-88
+st2_16;DomainPrimitiveJSONSerializationTest;deadCode;;;;6-6, 8-8, 9-9, 13-13
+st2_16;OwnShoppingBasketRESTTest;deadCode;;;;75-75
+st2_16;ShoppingBasketRESTTest;deadCode;;;;54-54, 70-70
+st2_16;RulesForOwnTests;deadCode;;;;32-32
+st2_16;Client;anemicEntity;;;;Class
+st2_16;Client;deadCode;66-80;66-80;;
+st2_16;ClientId;anemicEntity;;;;Class
+st2_16;ClientIdConverter;anemicEntity;;;;Class
+st2_16;FulfillmentCenterComparator;anemicEntity;;;;Class
+st2_16;FulfillmentCenterId;anemicEntity;;;;Class
+st2_16;FulfillmentCenterIdConverter;anemicEntity;;;;Class
+st2_16;Item;anemicEntity;;Class;Class;Class
+st2_16;ItemId;anemicEntity;;;;Class
+st2_16;ItemIdConverter;anemicEntity;;;;Class
+st2_16;Order;anemicEntity;;;Class;Class
+st2_16;Order;deadCode;;;53-57;
+st2_16;OrderId;anemicEntity;;;;Class
+st2_16;OrderIdConverter;anemicEntity;;;;Class
+st2_16;OrderPosition;anemicEntity;Class;;;Class
+st2_16;OrderPositionId;anemicEntity;;;;Class
+st2_16;OrderPositionIdConverter;anemicEntity;;;;Class
+st2_16;ShoppingBasketId;anemicEntity;;;;Class
+st2_16;ShoppingBasketIdConverter;anemicEntity;;;;Class
+st2_16;ShoppingBasketPositionId;anemicEntity;;;;Class
+st2_16;ShoppingBasketPositionIdConverter;anemicEntity;;;;Class
+st2_16;StockLevelId;anemicEntity;;;;Class
+st2_16;StockLevelIdConverter;anemicEntity;;;;Class
+st2_16;ClientRegistrationService;duplication;89-92, 94-103;59, 78, 63-67;23-25, 35, 40-44;
+st2_16;FulfillmentCenterAdapterService;duplication;52-53, 63-64, 74-75, 85-86, 55-56, 66-67, 77-78;62-68, 72-80;52-53, 55-57;
+st2_16;FulfillmentCenterService;duplication;47, 54, 61, 68;54, 61, 68, 33-43;47;
+st2_16;FulfillmentCenter;deadCode;72-76;;;
+st2_16;OrderService;layerViolation;8;;;
+st2_16;OrderService;sharedPersistency;24;;24;
+st2_16;ShoppingBasketRepository;layerViolation;4;;;
+st2_16;ShoppingBasketRepository;sharedPersistency;4;;;
+st2_16;ItemRepository;deadCode;6;;;
+st2_16;StockLevel;anemicEntity;Class;;;
+st2_16;ShoppingBasketController;layerViolation;9;;;
+st2_16;EmailAddress;duplication;;36-38;38;
+st2_16;EmailAddress;negativeConditionals;;;46;
+st2_17;EmailAddress;deadCode;10;;;10-10
+st2_17;OrderService;duplication;;;89-91;45-45
+st2_17;OrderService;sharedPersistency;10-11;;44, 106;
+st2_17;OrderJpaRepository;deadCode;8;;;8-8
+st2_17;OrderRepository;deadCode;7;;;7-7
+st2_17;ProductJpaRepository;deadCode;6;;;6-6
+st2_17;ProductRepository;deadCode;4;;;4-4
+st2_17;CheckoutOrchestrator;deadCode;;;;5-5
+st2_17;CheckoutOrchestrator;sharedPersistency;11;;126;
+st2_17;CheckoutOrchestrator;duplication;;24-37, 60-62;;
+st2_17;ShoppingCartController;duplication;97-101, 127-131, 153-157;;127-131, 153-157;98-98, 101-101
+st2_17;ShoppingCartController;sharedPersistency;12-14;;;
+st2_17;ShoppingCartController;layerViolation;16-18;;30-33, 62, 66, 156, 165;
+st2_17;ShoppingCartService;duplication;70-73, 98-100, 123-125, 139-141, 186-188;59-84;88-96, 118-120, 135-137;73-73
+st2_17;ShoppingCartService;sharedPersistency;17-19;;72, 75, 102, 171;
+st2_17;ShoppingCartJpaRepository;deadCode;8;;;8-8
+st2_17;ShoppingCartRepository;deadCode;7;;;7-7
+st2_17;UserJpaRepository;deadCode;;;;6-6, 9-9
+st2_17;UserRepository;deadCode;;;;4-4
+st2_17;WarehouseService;duplication;64-68, 89-93, 119-123, 141-145;64-68;76-80, 86-88, 90-92, 106-110, 116-118, 120-122, 131-135, 138-140, 142-144;62-62
+st2_17;InventoryLevel;deadCode;;;;5-5, 6-6
+st2_17;InventoryLevel;anemicEntity;Class;;;Class
+st2_17;WarehouseJpaRepository;deadCode;;;;6-6
+st2_17;WarehouseRepository;deadCode;4;;;4-4
+st2_17;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_17;FactoryMethodInvoker;deadCode;;;;139-139
+st2_17;UserTestHelperImpl;deadCode;;;;13-13
+st2_17;ShoppingCartRESTTest;deadCode;;;;54-54, 70-70
+st2_17;RulesForOwnTests;deadCode;;;;32-32
+st2_17;UserRESTTest;deadCode;;;;88-88
+st2_17;InventoryLevelId;anemicEntity;;;;Class
+st2_17;InventoryLevelIdConverter;anemicEntity;;;;Class
+st2_17;Order;anemicEntity;;;;Class
+st2_17;Order;layerViolation;4;;;
+st2_17;OrderId;anemicEntity;;;;Class
+st2_17;OrderIdConverter;anemicEntity;;;;Class
+st2_17;OrderPart;anemicEntity;Class;;;Class
+st2_17;OrderPartId;anemicEntity;;;;Class
+st2_17;OrderPartIdConverter;anemicEntity;;;;Class
+st2_17;Product;anemicEntity;;Class;Class;Class
+st2_17;ProductId;anemicEntity;;;;Class
+st2_17;ProductIdConverter;anemicEntity;;;;Class
+st2_17;ShoppingCartId;anemicEntity;;;;Class
+st2_17;ShoppingCartIdConverter;anemicEntity;;;;Class
+st2_17;ShoppingCartPart;anemicEntity;Class;;;Class
+st2_17;ShoppingCartPartId;anemicEntity;;;;Class
+st2_17;ShoppingCartPartIdConverter;anemicEntity;;;;Class
+st2_17;User;anemicEntity;;;;Class
+st2_17;UserId;anemicEntity;;;;Class
+st2_17;UserIdConverter;anemicEntity;;;;Class
+st2_17;WarehouseId;anemicEntity;;;;Class
+st2_17;WarehouseIdConverter;anemicEntity;;;;Class
+st2_17;ProductService;sharedPersistency;12-13;73-99;83, 92;
+st2_17;ProductService;misplacedResponsibility;83-96;73-99;;
+st2_17;ProductService;duplication;;;103-105;
+st2_17;ProductService;layerViolation;;73-99;;
+st2_17;InventoryManager;sharedPersistency;5-7;;22;
+st2_17;UserService;duplication;37, 57, 73;;;
+st2_17;OwnTestsTest;deadCode;;;7;
+st2_18;ZipCode;deadCode;64-81;64-87;64-81, 83-87;64-64
+st2_18;ClientRepository;deadCode;;;;4-4
+st2_18;DistributionCenterService;deadCode;57-84;57-84;;117-117, 178-178, 196-196
+st2_18;DistributionCenterService;sharedPersistency;29;;26, 29;
+st2_18;DistributionCenterService;duplication;;;98-108;
+st2_18;StockService;deadCode;;;38-40;7-7
+st2_18;DistributionCenterRepository;deadCode;;;;5-5, 6-6
+st2_18;StockLevel;deadCode;;;;7-7
+st2_18;StockLevel;anemicEntity;Class;;Class;Class
+st2_18;ItemRepository;deadCode;;;;3-3, 6-6
+st2_18;OrderRepository;deadCode;;;;4-4, 8-8
+st2_18;OrderpositionRepository;deadCode;;;;5-5
+st2_18;ShoppingBasket;deadCode;;;;6-6
+st2_18;ShoppingBasket;anemicEntity;Class;Class;Class;Class
+st2_18;ShoppingBasketId;deadCode;;;;4-4, 5-5
+st2_18;ShoppingBasketId;anemicEntity;;;;Class
+st2_18;ShoppingBasketPositionDTO;deadCode;5-13;;;6-6, 7-7
+st2_18;ShoppingBasketPositionDTO;anemicEntity;;;;Class
+st2_18;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_18;FactoryMethodInvoker;deadCode;;;;139-139
+st2_18;ClientTestHelperImpl;deadCode;;;;13-13
+st2_18;ClientRESTTest;deadCode;;;;88-88
+st2_18;OwnShoppingBasketRESTTest;deadCode;;;;29-29
+st2_18;ShoppingBasketRESTTest;deadCode;;;;54-54, 70-70
+st2_18;RulesForOwnTests;deadCode;;;;32-32
+st2_18;Client;anemicEntity;Class;Class;Class;Class
+st2_18;ClientId;anemicEntity;;;;Class
+st2_18;ClientIdConverter;anemicEntity;;;;Class
+st2_18;ClientResponseDTO;anemicEntity;;;;Class
+st2_18;ClientResponseDTO;misplacedResponsibility;1, 8;;1-25;
+st2_18;DistributionCenterId;anemicEntity;;;;Class
+st2_18;DistributionCenterIdConverter;anemicEntity;;;;Class
+st2_18;ItemId;anemicEntity;;;;Class
+st2_18;ItemIdConverter;anemicEntity;;;;Class
+st2_18;Order;anemicEntity;Class;Class;Class;Class
+st2_18;Orderable;anemicEntity;;;;Class
+st2_18;Orderable;deadCode;9-18;;;
+st2_18;OrderDTO;anemicEntity;;;;Class
+st2_18;OrderDTO;misplacedResponsibility;;;1-51;
+st2_18;OrderId;anemicEntity;;;;Class
+st2_18;OrderIdConverter;anemicEntity;;;;Class
+st2_18;OrderPositionDTO;anemicEntity;;;;Class
+st2_18;OrderPositionId;anemicEntity;;;;Class
+st2_18;ShoppableId;anemicEntity;;;;Class
+st2_18;ShoppableId;deadCode;10-15;;12;
+st2_18;ShoppableIdConverter;anemicEntity;;;;Class
+st2_18;ShoppableIdConverter;deadCode;6-11;;7;
+st2_18;ShoppableInterface;anemicEntity;;;;Class
+st2_18;ShoppableInterface;deadCode;6-9;;6-9;
+st2_18;ShoppingBasketIdConverter;anemicEntity;;;;Class
+st2_18;ShoppingBasketPosition;anemicEntity;Class;Class;Class;Class
+st2_18;ShoppingBasketPositionId;anemicEntity;;;;Class
+st2_18;ShoppingBasketPositionIdConverter;anemicEntity;;;;Class
+st2_18;StockLevelId;anemicEntity;;;;Class
+st2_18;StockLevelIdConverter;anemicEntity;;;;Class
+st2_18;Email;negativeConditionals;;;41, 45, 91, 101;
+st2_18;Email;duplication;64, 77;;104-106;
+st2_18;ClientController;layerViolation;;;40;
+st2_18;ClientRegistrationService;misplacedResponsibility;;;64;
+st2_18;ClientRegistrationService;deadCode;;;77-81;
+st2_18;ClientRegistrationService;duplication;;34-35, 51-52, 65-66;;
+st2_18;Shoppable;deadCode;10-18;9-18;10-18;
+st2_18;DistributionCenter;deadCode;42-55;42-55, 33;33, 42-55;
+st2_18;DistributionCenter;layerViolation;11;;;
+st2_18;DistributionCenter;anemicEntity;Class;;;
+st2_18;Item;anemicEntity;Class;Class;Class;
+st2_18;OrderService;sharedPersistency;15-17;;31, 34, 37;
+st2_18;OrderPosition;anemicEntity;Class;Class;Class;
+st2_18;ShoppingBasketController;layerViolation;17-19;;19;
+st2_18;ShoppingBasketController;misplacedResponsibility;;163-200, 202-214;113-149;
+st2_18;ShoppingBasketController;duplication;;;163-183;
+st2_18;ShoppingBasketService;sharedPersistency;19-22;;33, 36, 39, 42, 51;
+st2_18;DistributionCenterComparator;layerViolation;3;;;
+st2_18;EmailDTO;misplacedResponsibility;4;;;
+st2_18;PhysicalAddressDTO;misplacedResponsibility;5;;;
+st2_18;ZipCodeDTO;misplacedResponsibility;3;;;
+st2_18;Money;deadCode;;88-92;;
+st2_18;Money;duplication;;88-92;;
+st2_18;ClientAdapterHelper;duplication;;10-22;;
+st2_19;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_19;FactoryMethodInvoker;deadCode;;;;139-139
+st2_19;UserTestHelperImpl;deadCode;;;;13-13
+st2_19;ShoppingCartRESTTest;deadCode;;;;54-54, 70-70
+st2_19;RulesForOwnTests;deadCode;;;;32-32
+st2_19;UserRESTTest;deadCode;;;;88-88
+st2_19;InventoryLevel;anemicEntity;Class;Class;Class;Class
+st2_19;InventoryLevelId;anemicEntity;;;;Class
+st2_19;InventoryLevelIdConverter;anemicEntity;;;;Class
+st2_19;Item;anemicEntity;Class;Class;Class;Class
+st2_19;ItemId;anemicEntity;;;;Class
+st2_19;ItemIdConverter;anemicEntity;;;;Class
+st2_19;Order;anemicEntity;;;Class;Class
+st2_19;OrderId;anemicEntity;;;;Class
+st2_19;OrderIdConverter;anemicEntity;;;;Class
+st2_19;OrderPosition;anemicEntity;;Class;Class;Class
+st2_19;OrderPositionId;anemicEntity;;;;Class
+st2_19;OrderPositionIdConverter;anemicEntity;;;;Class
+st2_19;ShoppingCartId;anemicEntity;;;;Class
+st2_19;ShoppingCartIdConverter;anemicEntity;;;;Class
+st2_19;ShoppingCartPosition;anemicEntity;;Class;Class;Class
+st2_19;ShoppingCartPositionId;anemicEntity;;;;Class
+st2_19;ShoppingCartPositionIdConverter;anemicEntity;;;;Class
+st2_19;StorageUnitId;anemicEntity;;;;Class
+st2_19;StorageUnitIdConverter;anemicEntity;;;;Class
+st2_19;UserId;anemicEntity;;;;Class
+st2_19;UserIdConverter;anemicEntity;;;;Class
+st2_19;Currency;negativeConditionals;54, 71, 105, 136;54, 71, 105;54, 71, 105, 136;
+st2_19;Currency;duplication;53-56;54-56, 71-73;71, 105;
+st2_19;ZipCode;negativeConditionals;79, 86;79, 86;79, 86;
+st2_19;ItemService;negativeConditionals;137-138;137;138;
+st2_19;ItemService;duplication;61-62;111-112;63-65;
+st2_19;UserService;duplication;53-57, 58-59;;83-88;
+st2_19;UserService;negativeConditionals;;;58, 86, 149;
+st2_19;UserDTO;anemicEntity;Class;;;
+st2_19;OrderDTO;anemicEntity;Class;;;
+st2_19;OrderPositionDTO;anemicEntity;Class;;;
+st2_19;ShoppingCartDTO;anemicEntity;Class;;;
+st2_19;ShoppingCartPositionDTO;anemicEntity;Class;;;
+st2_19;StorageUnitService;duplication;46-47, 51;44, 59, 79;58-71;
+st2_19;ShoppingCartService;duplication;73-74;;101, 102;
+st2_19;ShoppingCartService;misplacedResponsibility;;;188-222;
+st2_19;ShoppingCartService;negativeConditionals;;;251;
+st2_19;StorageUnit;duplication;41-48;;;
+st2_19;ShoppingCart;duplication;39-46;;;
+st2_19;InventoryLevelRepository;deadCode;9;;;
+st2_19;OrderRepository;misplacedResponsibility;11;;;
+st2_19;ShoppingCartController;layerViolation;11-13;;;
+st2_19;OrderService;layerViolation;14-17;;;
+st2_19;OrderService;sharedPersistency;110;;;
+st2_19;Email;negativeConditionals;;136;123;
+st2_19;InventoryLevelDeletionService;deadCode;;41-44;;
+st2_19;User;anemicEntity;;Class;Class;
+st2_19;OwnTestsTest;deadCode;;;7-8;
+st2_19;OwnShoppingCartRESTTest;duplication;;;137-153;
+st2_2;PurchaseService;duplication;74-76;74-76, 99-101;99-101, 112-114;76-76
+st2_2;ShoppingCartDTO;deadCode;;;;3-3, 4-4, 5-5, 6-6, 8-8, 9-9, 10-10, 11-11
+st2_2;ShoppingCartPart;deadCode;;;;6-6
+st2_2;ShoppingCartPart;anemicEntity;;;Class;Class
+st2_2;ShoppingCartPart;sharedPersistency;20-21;;;
+st2_2;Adress;deadCode;1-50;;;4-4
+st2_2;Adress;duplication;1-50;Class;;
+st2_2;StockLevel;deadCode;;;;6-6
+st2_2;StockLevel;anemicEntity;;;Class;Class
+st2_2;StockLevel;sharedPersistency;20-21;;;
+st2_2;FactoryMethodInvoker;duplication;;23-48, 51-79, 82-107, 110-135;;33-33, 44-44
+st2_2;FactoryMethodInvoker;deadCode;;;;139-139
+st2_2;UserTestHelperImpl;deadCode;;;;13-13
+st2_2;DomainPrimitiveJSONSerializationTest;deadCode;;;;13-13
+st2_2;ShoppingCartRESTTest;deadCode;;;;54-54, 70-70
+st2_2;RulesForOwnTests;deadCode;;;;32-32
+st2_2;UserRESTTest;deadCode;;;;88-88
+st2_2;ProductId;anemicEntity;;;;Class
+st2_2;ProductIdConverter;anemicEntity;;;;Class
+st2_2;Purchase;anemicEntity;Class;Class;Class;Class
+st2_2;Purchase;sharedPersistency;22-23, 28-29;;;
+st2_2;PurchaseId;anemicEntity;;;;Class
+st2_2;PurchaseIdConverter;anemicEntity;;;;Class
+st2_2;ShoppingCart;anemicEntity;Class;Class;Class;Class
+st2_2;ShoppingCart;sharedPersistency;23-24;;;
+st2_2;ShoppingCartId;anemicEntity;;;;Class
+st2_2;ShoppingCartIdConverter;anemicEntity;;;;Class
+st2_2;StorageUnitComparator;anemicEntity;;;;Class
+st2_2;StorageUnitId;anemicEntity;;;;Class
+st2_2;StorageUnitIdConverter;anemicEntity;;;;Class
+st2_2;UserId;anemicEntity;;;;Class
+st2_2;UserIdConverter;anemicEntity;;;;Class
+st2_2;Email;negativeConditionals;;;53-54;
+st2_2;Email;duplication;69-75;;79-81;
+st2_2;Money;negativeConditionals;;;34;
+st2_2;ProductCatalogService;duplication;;122-126, 128-132, 139-155;129-131;
+st2_2;Product;anemicEntity;Class;Class;Class;
+st2_2;PurchasePart;anemicEntity;;;Class;
+st2_2;PurchasePart;sharedPersistency;20-21;;;
+st2_2;ShoppingCartService;sharedPersistency;;;40, 268;
+st2_2;ShoppingCartService;misplacedResponsibility;;;80-87, 126-136;
+st2_2;ShoppingCartService;duplication;112-144, 314-333;314-323, 324-333, 291-298, 306-312, 65-95, 112-144, 146-175;116-119, 126-136, 150-153, 160-167, 189-192, 213-216, 325-333;
+st2_2;StorageUnitService;deadCode;;;83-103;
+st2_2;StorageUnitService;misplacedResponsibility;;;134-141, 186-200, 234-241;
+st2_2;StorageUnitService;duplication;118-149, 223-249, 277-283;277-283, 285-289;186-200, 234-241;
+st2_2;UserRegistrationService;duplication;;66-70, 71-75;72-74;
+st2_2;User;anemicEntity;Class;Class;Class;
+st2_2;EmailType;deadCode;;;57;
+st2_2;MoneyType;deadCode;;;72;
+st2_2;PhysicalAddressType;deadCode;;;36;
+st2_2;ZipCodeType;deadCode;;;63;
+st2_2;PurchaseCheckerService;layerViolation;29;;;
+st2_2;ShoppingCartCheckerService;layerViolation;29;;;
+st2_2;StorageUnitCheckerService;layerViolation;29;;;
+st2_2;ShoppingCartController;duplication;148-154;;;
+st2_2;OwnTestsTest;deadCode;1-9;;;
+st2_20;FactoryMethodInvoker;duplication;23-48, 51-79, 82-107, 110-135;23-48, 51-79, 82-107, 110-135;51-79, 82-107, 110-135, 1-178;33-33, 44-44
+st2_20;FactoryMethodInvoker;deadCode;;;;139-139, 3-3
+st2_20;InitialMasterDataCreator;deadCode;;;;4-4, 5-5, 6-6, 165-165
+st2_20;InitialMasterDataCreator;duplication;;;27-38, 39-50, 52-83, 89-132, 162-175;
+st2_20;InventoryManagementService;deadCode;;;;55-55
+st2_20;ShoppingCartService;deadCode;;;;91-91
+st2_20;ShoppingCartService;sharedPersistency;41;;41;
+st2_20;TestHelper;deadCode;;;;172-172
+st2_20;TestHelper;duplication;39-166;;39-50, 52-63, 65-96, 101-144, 169-182;
+st2_20;E3DDDRulesTest;deadCode;;;;15-15
+st2_20;E3PackageStructureTest;deadCode;;;;9-9
+st2_20;RESTHelper;deadCode;;;;77-77, 78-78
+st2_20;RegressionCustomerRegistrationTest;deadCode;;;;31-31
+st2_20;RegressionDeliveryMockTest;deadCode;;;;19-19, 20-20
+st2_20;RegressionPaymentMockTest;deadCode;;;;35-35
+st2_20;DeliveryPart;anemicEntity;;Class;Class;Class
+st2_20;DeliveryPart;layerViolation;20-23;;;
+st2_20;InventoryDomainService;anemicEntity;;;;Class
+st2_20;InventoryDomainService;deadCode;19-27;1-34;10-33;
+st2_20;InventoryPart;anemicEntity;;;;Class
+st2_20;InventoryPart;layerViolation;20-21;;;
+st2_20;OrderPart;anemicEntity;Class;Class;Class;Class
+st2_20;OrderPart;layerViolation;22-23;;;
+st2_20;ShoppingCartDomainService;anemicEntity;;;;Class
+st2_20;ShoppingCartPart;anemicEntity;;Class;;Class
+st2_20;ShoppingCartPart;layerViolation;20-21;;;
+st2_20;MoneyTypeAdapter;duplication;;;15-28;
+st2_20;MockCustomer;duplication;1-51;;1-51;
+st2_20;ShoppingCartUseCasesAdapterService;deadCode;39-45;;39-40, 43-45;
+st2_20;ShoppingCartUseCasesAdapterService;duplication;;30, 35;;
+st2_20;Customer;anemicEntity;;;Class;
+st2_20;Delivery;anemicEntity;Class;Class;Class;
+st2_20;OrderService;sharedPersistency;29-30;;29, 30;
+st2_20;OrderService;duplication;65-67, 105-107;;;
+st2_20;Order;anemicEntity;Class;Class;Class;
+st2_20;Payment;anemicEntity;;;Class;
+st2_20;Payment;layerViolation;24-25;;;
+st2_20;Money;duplication;72-75, 89-92, 120-123;;;
+st2_20;DeliveryService;duplication;37-39, 74-77;;;
+st2_20;DeliveryService;sharedPersistency;56;;;
+st2_20;DeliveryService;layerViolation;64;;;
+st2_20;ShoppingCart;layerViolation;32-33;;;
+st2_3;FactoryMethodInvoker;duplication;;23-48, 51-79, 82-107, 110-135;51-79, 82-107, 110-135;33-33, 44-44
+st2_3;FactoryMethodInvoker;deadCode;;;;139-139
+st2_3;InitialMasterDataCreator;deadCode;;;;4-4, 5-5, 6-6, 165-165
+st2_3;AdapterService;deadCode;;;;6-6
+st2_3;GoodService;deadCode;;;;8-8
+st2_3;ShoppingBasketRESTController;deadCode;;;;50-50
+st2_3;ShoppingBasketRESTController;layerViolation;13;;88;
+st2_3;ShoppingBasketRESTController;sharedPersistency;30;;;
+st2_3;E3DDDRulesTest;deadCode;;;;15-15
+st2_3;E3PackageStructureTest;deadCode;;;;9-9
+st2_3;RESTHelper;deadCode;;;;77-77, 78-78
+st2_3;RegressionCustomerRegistrationTest;deadCode;;;;31-31
+st2_3;Customer;anemicEntity;;Class;Class;Class
+st2_3;CustomerShoppingBasket;anemicEntity;;;;Class
+st2_3;Good;anemicEntity;;Class;;Class
+st2_3;ReservedGood;anemicEntity;;;;Class
+st2_3;ShoppingBasket;anemicEntity;Class;;Class;Class
+st2_3;ShoppingBasketService;duplication;54-55, 83-84, 112-113, 124-125, 155-156, 165-166, 177-178, 278-279, 295-296, 179;53-78, 81-108, 128-137, 139-150;;
+st2_3;ShoppingBasketService;negativeConditionals;159;176;;
+st2_3;ShoppingBasketService;misplacedResponsibility;;;186-194;
+st2_3;ShoppingBasketService;deadCode;;;245;
+st2_3;PaymentService;duplication;36-38, 54-56;;;
+st2_3;PaymentService;misplacedResponsibility;;;46;
+st2_3;DeliveryService;duplication;72-74;71-87;;
+st2_3;DeliveryService;negativeConditionals;;46-50;;
+st2_3;DeliveryService;misplacedResponsibility;;;63;
+st2_3;StockManagementService;duplication;27-29, 38-40, 55-57, 67-69;26-34, 37-49, 54-63;;
+st2_3;GoodCatalogService;duplication;47-48, 59-60;;;
+st2_3;GoodCatalogService;negativeConditionals;;35;;
+st2_3;OrderService;duplication;35-36;34-49, 71-87;;
+st2_3;OrderService;layerViolation;18;;;
+st2_3;OrderService;deadCode;18;;;
+st2_3;OrderService;negativeConditionals;;55;;
+st2_3;Delivery;anemicEntity;Class;Class;Class;
+st2_3;DeliveryPosition;anemicEntity;Class;Class;Class;
+st2_3;Order;anemicEntity;Class;Class;Class;
+st2_3;Payment;anemicEntity;Class;Class;Class;
+st2_3;FunctionHelper;deadCode;13-16;;;
+st2_3;FunctionHelper;negativeConditionals;;6-11, 18-20;;
+st2_3;ShoppingBasketState;deadCode;7;;;
+st2_3;Money;duplication;46-47, 53-54, 68-69;46-48, 53-55, 68-70;54, 69;
+st2_3;Money;negativeConditionals;;28;28;
+st2_3;Money;deadCode;;;21-23;
+st2_3;CustomerRegistrationService;negativeConditionals;;34-35;;
+st2_3;CustomerRegistrationService;misplacedResponsibility;;26;;
+st2_3;OrderPosition;anemicEntity;;Class;Class;
+st2_3;Address;deadCode;;26-28;26-28;
+st2_3;Email;deadCode;;19-21;19-21;
+st2_3;Email;negativeConditionals;;;37-42;
+st2_3;ZipCode;deadCode;;15-17;15-17;
+st2_3;OrderRESTController;duplication;;;39;
+st2_4;FulfillmentCenterIdConverter;deadCode;5;;;5-5
+st2_4;FulfillmentCenterIdConverter;anemicEntity;;;;Class
+st2_4;ProductIdConverter;deadCode;5;;;5-5
+st2_4;ProductIdConverter;anemicEntity;;;;Class
+st2_4;PurchaseIdConverter;deadCode;5;;;5-5
+st2_4;PurchaseIdConverter;anemicEntity;;;;Class
+st2_4;ShoppingBasketService;deadCode;6;108-111, 109-110;39;39-39
+st2_4;ShoppingBasketService;duplication;77-78, 248-250, 255-256;262-276, 69-82, 161-164;251, 255-256, 258-259;84-84, 89-89, 268-268
+st2_4;ShoppingBasketService;sharedPersistency;10-16, 20;244-260;182, 210;
+st2_4;ShoppingBasketService;misplacedResponsibility;;;309, 321;
+st2_4;ShoppingBasketService;negativeConditionals;;183-185;;
+st2_4;ShoppingBasketService;layerViolation;;35-57;;
+st2_4;UserFinderAdapter;deadCode;5, 26;;;5-5, 26-26
+st2_4;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_4;FactoryMethodInvoker;deadCode;;;;139-139
+st2_4;UserTestHelperImpl;deadCode;;;;13-13
+st2_4;ShoppingBasketRESTTest;deadCode;;;;54-54, 70-70
+st2_4;RulesForOwnTests;deadCode;;;;32-32
+st2_4;UserRESTTest;deadCode;;;;88-88
+st2_4;BasketFactory;anemicEntity;;;;Class
+st2_4;FulfillmentCenterFinder;anemicEntity;;;;Class
+st2_4;FulfillmentCenterId;anemicEntity;;;;Class
+st2_4;FulfillmentInventoryChecker;anemicEntity;;;;Class
+st2_4;InventoryChecker;anemicEntity;;;;Class
+st2_4;InventoryLevel;anemicEntity;Class;Class;;Class
+st2_4;InventoryLevel;deadCode;;20;;
+st2_4;InventoryLevelId;anemicEntity;;;;Class
+st2_4;InventoryLevelIdConverter;anemicEntity;;;;Class
+st2_4;Product;anemicEntity;;Class;Class;Class
+st2_4;ProductBasketUsageChecker;anemicEntity;;;;Class
+st2_4;ProductId;anemicEntity;;;;Class
+st2_4;ProductLookup;anemicEntity;;;;Class
+st2_4;Purchase;anemicEntity;;Class;Class;Class
+st2_4;Purchase;duplication;;;43;
+st2_4;Purchase;layerViolation;7-8, 9-10;;;
+st2_4;PurchaseId;anemicEntity;;;;Class
+st2_4;PurchasePosition;anemicEntity;Class;Class;Class;Class
+st2_4;PurchasePositionId;anemicEntity;;;;Class
+st2_4;PurchasePositionIdConverter;anemicEntity;;;;Class
+st2_4;PurchaseUsage;anemicEntity;;;;Class
+st2_4;PurchaseUsageChecker;anemicEntity;;;;Class
+st2_4;PurchaseUsageChecker;deadCode;1-7;Class;;
+st2_4;ShoppingBasketId;anemicEntity;;;;Class
+st2_4;ShoppingBasketIdConverter;anemicEntity;;;;Class
+st2_4;ShoppingBasketPosition;anemicEntity;Class;Class;Class;Class
+st2_4;ShoppingBasketPositionId;anemicEntity;;;;Class
+st2_4;ShoppingBasketPositionIdConverter;anemicEntity;;;;Class
+st2_4;User;anemicEntity;Class;Class;Class;Class
+st2_4;UserFinder;anemicEntity;;;;Class
+st2_4;UserId;anemicEntity;;;;Class
+st2_4;UserIdConverter;anemicEntity;;;;Class
+st2_4;InventoryCheckerAdapter;sharedPersistency;;;21;
+st2_4;ProductPurchaseUsageAdapter;sharedPersistency;;;20;
+st2_4;ProductBasketUsageAdapter;sharedPersistency;;;19;
+st2_4;FulfillmentCenter;duplication;96-102, 134-140;;43;
+st2_4;FulfillmentCenter;layerViolation;8;;;
+st2_4;ProductCatalogService;negativeConditionals;;50-53;50-51;
+st2_4;ProductCatalogService;misplacedResponsibility;;;97;
+st2_4;ProductCatalogService;duplication;;40-44, 46-48;;
+st2_4;PurchaseService;duplication;;;80;
+st2_4;PurchaseService;misplacedResponsibility;6;;;
+st2_4;ShoppingBasketController;duplication;69-82;69-82, 161-164;155-157;
+st2_4;ShoppingBasketController;deadCode;10;;;
+st2_4;ShoppingBasketController;misplacedResponsibility;;145-164;;
+st2_4;UserRegistrationService;duplication;;;40;
+st2_4;MailAddressJpaAdapter;deadCode;1-12;Class;;
+st2_4;PurchaseUsageAdapter;deadCode;1-24;;;
+st2_4;ShoppingBasketMapperHelper;deadCode;1-36;Class;;
+st2_4;ShoppingBasketPositionMapperHelper;deadCode;1-13;Class;;
+st2_4;ShoppingBasket;layerViolation;8;;;
+st2_4;PurchaseRepository;layerViolation;5;;;
+st2_4;ShoppingBasketRepository;layerViolation;4;;;
+st2_4;FulfillmentCenterComparator;layerViolation;8;;;
+st2_4;BasketFactoryImpl;layerViolation;8;;;
+st2_4;GlobalExceptionHandler;misplacedResponsibility;1-15;;;
+st2_4;GlobalExceptionHandler;layerViolation;;Class;;
+st2_4;ConflictException;misplacedResponsibility;1-12;;;
+st2_4;NotFoundException;misplacedResponsibility;1-12;;;
+st2_4;UnprocessableEntityException;misplacedResponsibility;1-12;;;
+st2_4;Currency;negativeConditionals;;31-36;;
+st2_4;Currency;deadCode;;104;;
+st2_4;MailAddress;negativeConditionals;;33;;
+st2_4;FulfillmentCenterFinderAdapter;misplacedResponsibility;;Class;;
+st2_4;FulfillmentInventoryAdapter;misplacedResponsibility;;Class;;
+st2_5;ZipCode;deadCode;41;50-51;;41-41
+st2_5;CustomerController;deadCode;10;;;10-10
+st2_5;OrderService;duplication;;35-47;;40-40
+st2_5;OrderService;sharedPersistency;26;;25;
+st2_5;OrderService;layerViolation;9-11;;;
+st2_5;ProductService;duplication;;39-56;;79-79
+st2_5;ShoppingBasketService;duplication;;60-62;88-89, 110-111;165-165
+st2_5;ShoppingBasketService;sharedPersistency;36;;35, 38;
+st2_5;ShoppingBasketService;misplacedResponsibility;;;144-162;
+st2_5;ShoppingBasketService;layerViolation;12-14;;;
+st2_5;ShoppingBasketService;deadCode;;174-180;;
+st2_5;StorageUnit;deadCode;51;;;51-51
+st2_5;StorageUnit;misplacedResponsibility;;;46-67;
+st2_5;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_5;FactoryMethodInvoker;deadCode;;;;139-139
+st2_5;CustomerTestHelperImpl;deadCode;;;;13-13
+st2_5;CustomerRESTTest;deadCode;;;;88-88
+st2_5;DomainPrimitiveJSONSerializationTest;deadCode;;;;44-44, 66-66, 87-87, 88-88, 89-89, 110-110, 111-111
+st2_5;OwnShoppingBasketRESTTest;deadCode;;;;5-5, 13-13, 17-17, 21-21, 22-22, 23-23, 32-32, 35-35, 44-44, 289-289, 339-339
+st2_5;ShoppingBasketRESTTest;deadCode;;;;54-54, 70-70
+st2_5;RulesForOwnTests;deadCode;;;;32-32
+st2_5;Customer;anemicEntity;Class;Class;Class;Class
+st2_5;CustomerId;anemicEntity;;;;Class
+st2_5;CustomerIdConverter;anemicEntity;;;;Class
+st2_5;Order;anemicEntity;Class;Class;Class;Class
+st2_5;OrderId;anemicEntity;;;;Class
+st2_5;OrderIdConverter;anemicEntity;;;;Class
+st2_5;OrderPart;anemicEntity;;Class;Class;Class
+st2_5;OrderPart;duplication;31-32;;;
+st2_5;OrderPartId;anemicEntity;;;;Class
+st2_5;OrderPartIdConverter;anemicEntity;;;;Class
+st2_5;Product;anemicEntity;Class;Class;Class;Class
+st2_5;ProductId;anemicEntity;;;;Class
+st2_5;ProductIdConverter;anemicEntity;;;;Class
+st2_5;ShoppingBasket;anemicEntity;Class;Class;Class;Class
+st2_5;ShoppingBasketId;anemicEntity;;;;Class
+st2_5;ShoppingBasketIdConverter;anemicEntity;;;;Class
+st2_5;ShoppingBasketPart;anemicEntity;;Class;Class;Class
+st2_5;ShoppingBasketPart;duplication;38-39;;;
+st2_5;ShoppingBasketPart;deadCode;73-97;;;
+st2_5;ShoppingBasketPartId;anemicEntity;;;;Class
+st2_5;ShoppingBasketPartIdConverter;anemicEntity;;;;Class
+st2_5;StockLevel;anemicEntity;Class;Class;Class;Class
+st2_5;StockLevelId;anemicEntity;;;;Class
+st2_5;StockLevelIdConverter;anemicEntity;;;;Class
+st2_5;StorageUnitComparator;anemicEntity;;;;Class
+st2_5;StorageUnitId;anemicEntity;;;;Class
+st2_5;StorageUnitIdConverter;anemicEntity;;;;Class
+st2_5;EmailAddress;duplication;41-47, 60-66;36-47;41-47;
+st2_5;EmailAddress;negativeConditionals;86;86-91;;
+st2_5;EmailAddress;deadCode;;50, 69;;
+st2_5;Money;duplication;;;56-57, 75-76;
+st2_5;StorageUnitAdapterService;duplication;;;64-66, 75-77, 86-88;
+st2_5;StorageUnitService;sharedPersistency;;;22;
+st2_5;StorageUnitService;negativeConditionals;143;;;
+st2_5;StorageUnitService;deadCode;173-182;174-180;;
+st2_5;CustomerRegistrationService;duplication;116-123, 124-126;27-33;;
+st2_5;CustomerRegistrationService;negativeConditionals;;116;;
+st2_5;CustomerRegistrationService;deadCode;;82-90;;
+st2_5;OrderPartRepository;layerViolation;5-6;;;
+st2_5;ShoppingBasketController;deadCode;146-155;146-155;;
+st2_5;ShoppingBasketController;duplication;;56-75;;
+st2_5;StockLevelRepository;layerViolation;5;;;
+st2_6;Address;deadCode;;;;6-6, 13-13
+st2_6;Address;negativeConditionals;;;43;
+st2_6;Email;deadCode;;61-64;60-64;5-5, 6-6
+st2_6;Email;negativeConditionals;;;35, 51, 57, 68;
+st2_6;Email;duplication;50-54, 56-60;20-22, 32-34;56-60;
+st2_6;PostalCode;deadCode;;;;3-3
+st2_6;PostalCode;anemicEntity;;Class;;
+st2_6;FactoryMethodInvoker;duplication;;23-48, 51-79, 82-107, 110-135;51-79, 82-107, 110-135;33-33, 44-44
+st2_6;FactoryMethodInvoker;deadCode;;147;;139-139
+st2_6;InitialMasterDataCreator;deadCode;;;162-175, 221-228;4-4, 5-5, 6-6, 165-165
+st2_6;CustomerRepository;deadCode;;;;5-5, 8-8
+st2_6;Delivery;deadCode;;;;9-9
+st2_6;Delivery;anemicEntity;Class;Class;Class;
+st2_6;DeliveryRepository;deadCode;;;;5-5
+st2_6;OrderCustomerService;deadCode;;;;5-5
+st2_6;OrderDto;deadCode;;;;8-8, 10-10, 11-11, 13-13
+st2_6;OrderExceptions;anemicEntity;;;;4-4
+st2_6;OrderExceptions;deadCode;1-5;Class;4;
+st2_6;Order;deadCode;;;;3-3, 7-7, 12-12
+st2_6;Order;anemicEntity;Class;Class;Class;Class
+st2_6;OrderRepository;deadCode;;;;6-6
+st2_6;OrderPartDto;deadCode;;;;10-10
+st2_6;OrderPartDto;duplication;1-22;;;
+st2_6;Payment;deadCode;;;;7-7, 11-11
+st2_6;Payment;anemicEntity;Class;Class;Class;
+st2_6;ShoppingCartDtoMapperService;deadCode;;;;27-27
+st2_6;ShoppingCartItemDto;deadCode;;;;7-7
+st2_6;ShoppingCartService;duplication;;74-77, 124-127, 77-79, 129-131;;97-97
+st2_6;ShoppingCartService;sharedPersistency;33-34;;;
+st2_6;ShoppingCartService;negativeConditionals;337, 308-311;;;
+st2_6;ShoppingInventoryService;deadCode;;;;7-7
+st2_6;AbstractCustomer;deadCode;;;;6-6
+st2_6;AbstractCustomer;anemicEntity;Class;Class;;Class
+st2_6;AbstractItem;deadCode;;;;5-5
+st2_6;AbstractItem;anemicEntity;Class;Class;;Class
+st2_6;ShoppingCart;deadCode;;;;7-7, 8-8
+st2_6;ShoppingCart;anemicEntity;Class;Class;;
+st2_6;ShoppingCartPartRepository;deadCode;;;;6-6
+st2_6;ShoppingCartRepository;deadCode;;;;6-6
+st2_6;E3DDDRulesTest;deadCode;;;;15-15
+st2_6;E3PackageStructureTest;deadCode;;;;9-9
+st2_6;RESTHelper;deadCode;;;;77-77, 78-78
+st2_6;RegressionCustomerRegistrationTest;deadCode;;;;31-31
+st2_6;OrderPart;anemicEntity;;Class;;Class
+st2_6;Money;negativeConditionals;;;56, 62;
+st2_6;CustomerRegistrationService;sharedPersistency;;;32, 50;
+st2_6;CustomerRegistrationService;deadCode;;92-152;92-152;
+st2_6;CustomerRegistrationService;duplication;;35-39, 59-61;;
+st2_6;Customer;anemicEntity;;;Class;
+st2_6;DeliveryRecipientClass;anemicEntity;;;Class;
+st2_6;DeliveryRecipientClass;duplication;21-27, 47-54;;;
+st2_6;DeliveryRecipientClass;deadCode;47-54;;;
+st2_6;DeliveryService;sharedPersistency;27-28;;27;
+st2_6;DeliveryService;deadCode;;56-73;56-73;
+st2_6;DeliveryService;layerViolation;27-28;;;
+st2_6;ItemCatalogService;sharedPersistency;24-26, 56;;22, 24;
+st2_6;ItemCatalogService;duplication;;30-43, 45-62;;
+st2_6;Item;anemicEntity;;;Class;
+st2_6;OrderController;deadCode;;49-66;49-66;
+st2_6;OrderDtoMapperService;deadCode;;35-46;22-26, 36-46;
+st2_6;OrderService;sharedPersistency;;;25;
+st2_6;OrderService;deadCode;41-43;32-39;32-39;
+st2_6;ShoppingBasketController;deadCode;;;147-228;
+st2_6;ShoppingBasketService;sharedPersistency;;;33;
+st2_6;ShoppingBasketService;duplication;;;106-116, 153-165;
+st2_6;ShoppingBasket;anemicEntity;;;Class;
+st2_6;ShoppingBasket;deadCode;;;32-39;
+st2_6;ShoppingBasketPart;anemicEntity;;;Class;
+st2_6;CustomerOrderService;deadCode;27-29;27-29;;
+st2_6;OrderShoppingService;duplication;37-43, 46-58;;;
+st2_6;PaymentService;duplication;34-35, 48-51;26-44, 47-60;;
+st2_6;PaymentService;deadCode;;41;;
+st2_6;InventoryElement;anemicEntity;Class;Class;;
+st2_6;ShoppingCartController;deadCode;;146-222;;
+st2_6;InventoryManagementService;duplication;;26-34, 37-55, 58-68;;
+st2_6;ShoppingCartPart;anemicEntity;;Class;;
+st2_7;MailAddress;deadCode;;;;3-3
+st2_7;MailAddress;duplication;;21-29;;
+st2_7;MailAddress;negativeConditionals;;21-22, 27;;
+st2_7;InsufficientMerchandiseInventoryException;deadCode;;;;6-6
+st2_7;FulfillmentCenterService;duplication;43-44, 56-57, 69-70, 82-83, 48-49, 61-62, 74-75, 85-86;29-32, 43-44, 46-47, 48-49, 61-62, 74-75, 85-86;56-57, 61-62, 69-70, 74-75, 82-83, 85-86;44-44
+st2_7;FulfillmentCenterService;sharedPersistency;11;;16, 21, 23, 48, 61, 74, 85;
+st2_7;PurchaseService;duplication;;;59-60, 66-67;35-35
+st2_7;PurchaseService;sharedPersistency;10;;23, 28, 30, 39;
+st2_7;ShoppingCartService;duplication;72-73, 85-86, 97-98, 120-121, 143-144, 150-151, 181-182, 216-217, 224-225, 244-245, 252-253, 106-107, 135-136, 188-189, 232-233, 240-241;79-89, 91-101, 113-124, 126-140, 142-147, 149-154, 156-163, 165-168, 212-220, 222-228, 230-236, 238-248, 250-256;97-98, 120-121, 135-136, 150-151, 181-182, 188-189, 216-217, 232-233;73-73, 107-107, 167-167
+st2_7;ShoppingCartService;sharedPersistency;12, 15, 18, 21;;33-36, 41-44, 46-49, 58, 72, 85, 97, 120, 132, 143, 150, 157, 181, 193, 202, 216, 224, 244, 252, 259, 277, 285;
+st2_7;ShoppingCartService;misplacedResponsibility;;;258-297;
+st2_7;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_7;FactoryMethodInvoker;deadCode;;;;139-139
+st2_7;CustomerTestHelperImpl;deadCode;;;;13-13
+st2_7;CustomerRESTTest;deadCode;;;;88-88
+st2_7;OwnShoppingCartRESTTest;deadCode;;;;17-17
+st2_7;ShoppingCartRESTTest;deadCode;;;;54-54, 70-70
+st2_7;RulesForOwnTests;deadCode;;;;32-32
+st2_7;Customer;anemicEntity;Class;Class;Class;Class
+st2_7;CustomerId;anemicEntity;;;;Class
+st2_7;CustomerIdConverter;anemicEntity;;;;Class
+st2_7;FulfillmentCenterId;anemicEntity;;;;Class
+st2_7;FulfillmentCenterIdConverter;anemicEntity;;;;Class
+st2_7;InventoryLevel;anemicEntity;Class;;Class;Class
+st2_7;InventoryLevelId;anemicEntity;;;;Class
+st2_7;InventoryLevelIdConverter;anemicEntity;;;;Class
+st2_7;Merchandise;anemicEntity;Class;Class;Class;Class
+st2_7;MerchandiseId;anemicEntity;;;;Class
+st2_7;MerchandiseIdConverter;anemicEntity;;;;Class
+st2_7;PurchaseId;anemicEntity;;;;Class
+st2_7;PurchaseIdConverter;anemicEntity;;;;Class
+st2_7;PurchasePart;anemicEntity;Class;;Class;Class
+st2_7;PurchasePartId;anemicEntity;;;;Class
+st2_7;PurchasePartIdConverter;anemicEntity;;;;Class
+st2_7;ShoppingCartId;anemicEntity;;;;Class
+st2_7;ShoppingCartIdConverter;anemicEntity;;;;Class
+st2_7;ShoppingCartPart;anemicEntity;Class;;Class;Class
+st2_7;ShoppingCartPartId;anemicEntity;;;;Class
+st2_7;ShoppingCartPartIdConverter;anemicEntity;;;;Class
+st2_7;Money;duplication;47-52, 59-65, 84-90, 60;19-25, 48, 60, 84, 51, 63, 88;;
+st2_7;FulfillmentCenter;duplication;71-72, 86-87;;;
+st2_7;FulfillmentCenter;anemicEntity;;Class;;
+st2_7;ShoppingCartController;duplication;47-51, 85-89, 107-111, 154-159, 160-166;;85-87, 107-109, 155-157, 162-164;
+st2_7;ShoppingCartController;sharedPersistency;13;;;
+st2_7;ShoppingCart;deadCode;5;;;
+st2_7;ShoppingCart;anemicEntity;;Class;;
+st2_7;Purchasable;anemicEntity;Class;;;
+st2_7;Storable;anemicEntity;Class;;;
+st2_7;ZipCode;negativeConditionals;;22;;
+st2_7;CustomerRegistrationService;duplication;;20-22, 23-25, 27-29, 39-41, 43-45, 60-62, 31-33, 47-48;39-41, 43-45, 60-62;
+st2_7;CustomerRepository;deadCode;;13-15, 18-22;;
+st2_7;CustomerRepository;sharedPersistency;;11, 20;;
+st2_7;FulfillmentCenterRepository;deadCode;;9-11, 14-16;;
+st2_7;MerchandiseCatalogService;duplication;;33-40, 50-51, 53-54;;
+st2_7;MerchandiseRepository;deadCode;;8-16, 19-27;;
+st2_7;Purchase;anemicEntity;;Class;;
+st2_7;PurchaseRepository;deadCode;;9-11, 15-17;;
+st2_7;ShoppingCartRepository;deadCode;;13;;
+st2_7;InventoryTestHelperImpl;deadCode;;339-346;;
+st2_8;MailAddress;deadCode;;;;3-3
+st2_8;MailAddress;duplication;58-59, 60-61, 62-63, 54-55;49-64, 58-59, 60-61, 62-63;59, 61, 63;
+st2_8;MailAddress;negativeConditionals;;51, 58-64;51, 58, 59, 64, 74;
+st2_8;Money;deadCode;;;;2-2
+st2_8;Money;duplication;70-71;43-45;;
+st2_8;Money;negativeConditionals;;45, 71, 88, 118;45;
+st2_8;Money;anemicEntity;;Class;;
+st2_8;FactoryMethodInvoker;duplication;;23-48, 51-79, 82-107, 110-135, 42-44, 72-74, 101-103, 129-131;82-107, 110-135;33-33, 44-44
+st2_8;FactoryMethodInvoker;deadCode;;;;139-139
+st2_8;FactoryMethodInvoker;misplacedResponsibility;;Class;;
+st2_8;InitialMasterDataCreator;deadCode;;;221;4-4, 5-5, 6-6, 165-165
+st2_8;ShoppingBasketPositionDto;deadCode;;;;4-4
+st2_8;ShoppingBasketPosition;deadCode;;;;11-11
+st2_8;ShoppingBasketPosition;anemicEntity;Class;Class;Class;Class
+st2_8;ShoppingBasketPosition;layerViolation;6;;;
+st2_8;E3DDDRulesTest;deadCode;;;;15-15
+st2_8;E3PackageStructureTest;deadCode;;;;9-9
+st2_8;RESTHelper;deadCode;;;;77-77, 78-78
+st2_8;RegressionUserRegistrationTest;deadCode;;;;31-31
+st2_8;Address;anemicEntity;Class;Class;Class;Class
+st2_8;Delivery;anemicEntity;Class;Class;Class;Class
+st2_8;DeliveryPosition;anemicEntity;Class;Class;Class;Class
+st2_8;DeliveryPosition;layerViolation;6;;;
+st2_8;Order;anemicEntity;Class;Class;Class;Class
+st2_8;OrderPosition;anemicEntity;Class;Class;Class;Class
+st2_8;OrderPosition;layerViolation;6;;;
+st2_8;Payment;anemicEntity;Class;Class;Class;Class
+st2_8;Product;anemicEntity;Class;Class;Class;Class
+st2_8;User;anemicEntity;Class;Class;Class;Class
+st2_8;User;layerViolation;6;;;
+st2_8;PersonalAddress;duplication;49-50;49-51;;
+st2_8;PersonalAddress;anemicEntity;;Class;;
+st2_8;DeliveryService;layerViolation;23-28;;;
+st2_8;DeliveryService;sharedPersistency;9;;26;
+st2_8;DeliveryService;duplication;45-49;45-49;;
+st2_8;DeliveryService;negativeConditionals;;45-49, 87;83;
+st2_8;DeliveryService;misplacedResponsibility;;103;;
+st2_8;OrderController;layerViolation;11;;21, 22, 23;
+st2_8;OrderController;sharedPersistency;11;;;
+st2_8;OrderController;negativeConditionals;;;38;
+st2_8;InventoryService;duplication;49-61, 84;40-62, 85-100, 84;89-99;
+st2_8;InventoryService;negativeConditionals;;;24, 37, 79, 84, 107;
+st2_8;ShoppingBasketService;duplication;67-69, 71-74, 272-275;51-54, 66-69, 133-134, 155-156, 272-274, 301-303;71-74;
+st2_8;ShoppingBasketService;negativeConditionals;;227;51, 52, 56, 67, 68, 83, 84, 99, 118, 134, 136, 156, 158, 166, 171, 192, 221, 273, 274, 302, 303;
+st2_8;ShoppingBasketService;misplacedResponsibility;;165-178;;
+st2_8;ShoppingBasketService;sharedPersistency;;;31, 33, 35, 37;
+st2_8;ShoppingBasketController;duplication;105-107;;;
+st2_8;ShoppingBasketController;layerViolation;;;24, 26, 32;
+st2_8;ShoppingBasketController;negativeConditionals;;;38, 57, 58, 67, 84, 106, 107, 110, 123, 124, 127, 139;
+st2_8;UserService;layerViolation;7;;;
+st2_8;UserService;duplication;;27-29, 32-38, 48-51, 56-61;;
+st2_8;UserService;negativeConditionals;;33;53, 72;
+st2_8;OrderDto;misplacedResponsibility;5;;;
+st2_8;ShoppingBasketDto;misplacedResponsibility;4;;;
+st2_8;PostalCode;duplication;;39-41;;
+st2_8;PostalCode;anemicEntity;;Class;;
+st2_8;PostalCode;negativeConditionals;;;40;
+st2_8;UserTypeImplementation;anemicEntity;;Class;;
+st2_8;PaymentService;duplication;;37-40;;
+st2_8;PaymentService;negativeConditionals;;37, 65;38;
+st2_8;ProductCatalogService;duplication;;27-34;;
+st2_8;ProductCatalogService;negativeConditionals;;;43, 51;
+st2_8;ShoppingBasket;anemicEntity;;Class;;
+st2_8;ShoppingBasketConsumerService;negativeConditionals;;;24;
+st2_8;ShoppingBasketRepository;negativeConditionals;;;94;
+st2_9;DepotService;duplication;;55-80, 82-106, 172-195;90-91, 115-116, 144-145;65-65
+st2_9;DepotService;deadCode;173-175, 181-184;;173-175, 181-185;
+st2_9;DepotService;layerViolation;10-11;;;
+st2_9;DepotService;sharedPersistency;21;;;
+st2_9;DepotService;misplacedResponsibility;;163-169;;
+st2_9;DepotService;negativeConditionals;;;62;
+st2_9;DepotIdConverter;deadCode;5;;;5-5
+st2_9;DepotIdConverter;anemicEntity;;;;Class
+st2_9;PurchaseService;duplication;;;75;69-69
+st2_9;PurchaseService;layerViolation;11-13;;;
+st2_9;PurchaseService;sharedPersistency;23;;;
+st2_9;ShoppingBasketDTO;deadCode;;;;7-7
+st2_9;ShoppingService;duplication;68-99, 101-129, 131-158, 159-172, 218-255, 256-291, 194-196;68-99, 101-129, 131-158, 159-172, 218-255, 256-291;137-140, 142-143, 176-179, 181-182, 196-199, 201-202, 221-224, 226-227;80-80, 143-143
+st2_9;ShoppingService;deadCode;;;;248-248, 284-284
+st2_9;ShoppingService;layerViolation;19, 17-18;;229;
+st2_9;ShoppingService;sharedPersistency;55;;42, 309;
+st2_9;ShoppingService;misplacedResponsibility;;293-317;218-317;
+st2_9;ShoppingService;negativeConditionals;;333-338;76, 111, 135, 162;
+st2_9;ShoppingBasketRepository;deadCode;;;;7-7
+st2_9;ShoppingBasketRepository;duplication;13;;;
+st2_9;UserController;deadCode;165-171;;165-171;126-126, 165-165
+st2_9;UserController;duplication;;;94-99, 146-150;
+st2_9;FactoryMethodInvoker;duplication;;;;33-33, 44-44
+st2_9;FactoryMethodInvoker;deadCode;;;;139-139
+st2_9;UserTestHelperImpl;deadCode;;;;13-13
+st2_9;ShoppingBasketRESTTest;deadCode;;;;54-54, 70-70
+st2_9;RulesForOwnTests;deadCode;;;;32-32
+st2_9;UserRESTTest;deadCode;;;;88-88
+st2_9;DepotComparator;anemicEntity;;;;Class
+st2_9;DepotComparator;layerViolation;4;;;
+st2_9;DepotId;anemicEntity;;;;Class
+st2_9;Product;anemicEntity;Class;Class;Class;Class
+st2_9;ProductId;anemicEntity;;;;Class
+st2_9;ProductIdConverter;anemicEntity;;;;Class
+st2_9;ProductNotFoundException;anemicEntity;;;;Class
+st2_9;PurchaseId;anemicEntity;;;;Class
+st2_9;PurchaseIdConverter;anemicEntity;;;;Class
+st2_9;PurchaseNotFoundException;anemicEntity;;;;Class
+st2_9;PurchasePosition;anemicEntity;Class;;Class;Class
+st2_9;PurchasePositionId;anemicEntity;;;;Class
+st2_9;PurchasePositionIdConverter;anemicEntity;;;;Class
+st2_9;ShoppingBasketId;anemicEntity;;;;Class
+st2_9;ShoppingBasketIdConverter;anemicEntity;;;;Class
+st2_9;ShoppingBasketNotFoundException;anemicEntity;;;;Class
+st2_9;ShoppingBasketPosition;anemicEntity;Class;;Class;Class
+st2_9;ShoppingBasketPositionId;anemicEntity;;;;Class
+st2_9;ShoppingBasketPositionIdConverter;anemicEntity;;;;Class
+st2_9;ShoppingBasketPositionNotFoundException;anemicEntity;;;;Class
+st2_9;StockLevel;anemicEntity;Class;Class;Class;Class
+st2_9;StockLevelId;anemicEntity;;;;Class
+st2_9;StockLevelIdConverter;anemicEntity;;;;Class
+st2_9;User;anemicEntity;Class;Class;Class;Class
+st2_9;UserId;anemicEntity;;;;Class
+st2_9;UserIdConverter;anemicEntity;;;;Class
+st2_9;UserNotFoundException;anemicEntity;;;;Class
+st2_9;Currency;deadCode;99-105;;;
+st2_9;Address;deadCode;20-28;;;
+st2_9;Address;misplacedResponsibility;;20-34;;
+st2_9;ShoppingApplicationService;deadCode;49-66;;;
+st2_9;ShoppingApplicationService;layerViolation;;33-35;;
+st2_9;ShoppingApplicationService;misplacedResponsibility;;37-47;37-47;
+st2_9;ShoppingBasketController;layerViolation;14, 15-17;;;
+st2_9;ShoppingBasketController;misplacedResponsibility;40;;;
+st2_9;ShoppingBasketController;sharedPersistency;156-168;;;
+st2_9;ShoppingBasketController;duplication;;;83-88, 127-131, 147-151;
+st2_9;DepotAdapterService;deadCode;;38-41;;
+st2_9;DepotAdapterService;duplication;;;45-46, 52-53, 59-60, 66-67;
+st2_9;ShoppingBasket;duplication;;35-37, 48-50;;
+st2_9;Depot;misplacedResponsibility;;42-49;;
+st2_9;ProductService;negativeConditionals;;88-92;;
+st2_9;ProductService;deadCode;;;83;
+st2_9;UserService;duplication;;159-165;;
+st2_9;UserService;deadCode;;;63-67;
+st2_9;Purchase;anemicEntity;;;Class;
+st2_1;FactoryMethodInvoker;duplication;;23-48, 51-79, 82-107, 110-135;51-79, 82-107, 110-135;33-33, 44-44
+st2_1;FactoryMethodInvoker;deadCode;;;;139-139
+st2_1;FactoryMethodInvoker;misplacedResponsibility;;152-176;;
+st2_1;InitialMasterDataCreator;deadCode;;;;4-4, 5-5, 6-6, 165-165
+st2_1;GoodCatalogService;deadCode;;;102;66-66
+st2_1;GoodCatalogService;duplication;109-116;109-116, 118-125;37-42;
+st2_1;GoodCatalogService;negativeConditionals;;;54;
+st2_1;GoodCatalogService;misplacedResponsibility;;44-64;;
+st2_1;GoodCatalogService;layerViolation;;44-46;;
+st2_1;StockManagementService;deadCode;;20;;24-24
+st2_1;StockManagementService;duplication;;67-91, 94-107;39-43;
+st2_1;StockManagementService;negativeConditionals;;;46, 70;
+st2_1;StockManagementService;misplacedResponsibility;20;;;
+st2_1;Good;deadCode;;;;6-6, 8-8
+st2_1;Good;anemicEntity;Class;Class;Class;Class
+st2_1;GoodRepository;deadCode;15;;;6-6
+st2_1;GoodRepository;layerViolation;6;;;
+st2_1;OrderService;deadCode;;;;17-17
+st2_1;OrderService;sharedPersistency;;;17;
+st2_1;OrderPositionDTO;deadCode;;;;9-9
+st2_1;OrderPositionService;deadCode;;;;20-20
+st2_1;OrderPositionRepository;deadCode;;14-15;;3-3, 6-6, 7-7, 9-9
+st2_1;ShoppingBasketPositionDTO;deadCode;;;;3-3
+st2_1;ShoppingBasketPositionDTOMapperService;deadCode;;;;21-21
+st2_1;ShoppingBasketPositionDTOMapperService;duplication;32-44, 56-70;;;
+st2_1;ShoppingBasketHelperClassCleanCodeService;deadCode;;;;71-71, 184-184
+st2_1;ShoppingBasketHelperClassCleanCodeService;misplacedResponsibility;;Class;25;
+st2_1;ShoppingBasketHelperClassCleanCodeService;sharedPersistency;;;27;
+st2_1;ShoppingBasketHelperClassCleanCodeService;duplication;;;103;
+st2_1;ShoppingBasketHelperClassCleanCodeService;negativeConditionals;100, 103, 118;;118;
+st2_1;ShoppingBasketRESTController;deadCode;150;;;150-150
+st2_1;ShoppingBasketRESTController;misplacedResponsibility;;;85-133;
+st2_1;ShoppingBasketRESTController;negativeConditionals;;;146, 168;
+st2_1;ShoppingBasketRESTController;duplication;;;174;
+st2_1;ShoppingBasketService;deadCode;;20;;40-40
+st2_1;ShoppingBasketService;sharedPersistency;;;32, 35;
+st2_1;ShoppingBasketService;negativeConditionals;104;176-180;70, 158;
+st2_1;ShoppingBasketService;duplication;70-71;98-106, 144-142;104;
+st2_1;E3DDDRulesTest;deadCode;;;;15-15
+st2_1;E3PackageStructureTest;deadCode;;;;9-9
+st2_1;RESTHelper;deadCode;;;;77-77, 78-78
+st2_1;RegressionClientRegistrationTest;deadCode;;;;31-31
+st2_1;Client;anemicEntity;Class;Class;Class;Class
+st2_1;DeliveryRecipientClient;anemicEntity;Class;;Class;Class
+st2_1;Order;anemicEntity;Class;Class;Class;Class
+st2_1;Order;negativeConditionals;;36-42;;
+st2_1;Warehouse;anemicEntity;;Class;Class;Class
+st2_1;Email;duplication;23, 40;23-26, 40-46;40;
+st2_1;Email;negativeConditionals;41-45;41-45;24;
+st2_1;Money;negativeConditionals;;;25, 59, 79, 118;
+st2_1;PostalCode;negativeConditionals;;;26;
+st2_1;ClientRegistrationService;misplacedResponsibility;23;31-52;23;
+st2_1;ClientRegistrationService;deadCode;;;23;
+st2_1;ClientRegistrationService;negativeConditionals;;57-65;42;
+st2_1;ClientRegistrationService;layerViolation;;42-47;;
+st2_1;DeliveryService;sharedPersistency;;;26;
+st2_1;DeliveryService;negativeConditionals;;;51;
+st2_1;DeliveryService;duplication;;37-47, 49-58;;
+st2_1;DeliveryService;misplacedResponsibility;;69-73;;
+st2_1;Delivery;anemicEntity;Class;Class;Class;
+st2_1;GoodBuyableService;negativeConditionals;18;;19;
+st2_1;Catalog;anemicEntity;Class;Class;Class;
+st2_1;OrderRESTController;misplacedResponsibility;;59-73;48-53, 59-73;
+st2_1;OrderRESTController;negativeConditionals;;;40;
+st2_1;OrderRESTController;deadCode;50-51;;;
+st2_1;OrderPosition;anemicEntity;Class;Class;Class;
+st2_1;PaymentService;sharedPersistency;;;21;
+st2_1;PaymentService;duplication;36-41;;;
+st2_1;PaymentService;deadCode;72-74;;;
+st2_1;Payment;anemicEntity;Class;Class;Class;
+st2_1;ShoppingBasket;anemicEntity;Class;Class;Class;
+st2_1;ShoppingBasketPosition;anemicEntity;Class;Class;Class;
+st2_1;GoodBuyableInterface;negativeConditionals;10;;;
+st2_1;OrderPostionDTOMapperService;duplication;38-50, 53-70;;;

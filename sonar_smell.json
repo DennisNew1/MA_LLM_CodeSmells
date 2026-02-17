@@ -1,0 +1,2043 @@
+[
+  {
+    "projektName": "'st2_10'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "DeliveryService",
+        "deadCode": [
+          "86-86"
+        ]
+      },
+      {
+        "class": "OrderApplicationService",
+        "deadCode": [
+          "104-104"
+        ]
+      },
+      {
+        "class": "OrderController",
+        "deadCode": [
+          "3-3",
+          "5-5",
+          "6-6",
+          "8-8",
+          "9-9",
+          "10-10",
+          "13-13",
+          "14-14",
+          "15-15",
+          "18-18",
+          "19-19",
+          "20-20"
+        ]
+      },
+      {
+        "class": "OrderDTO",
+        "deadCode": [
+          "9-9",
+          "10-10",
+          "11-11",
+          "12-12",
+          "14-14"
+        ]
+      },
+      {
+        "class": "OrderPositionDTO",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "Order",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "ShoppingBasketApplicationService",
+        "deadCode": [
+          "50-50",
+          "85-85",
+          "85-86"
+        ]
+      },
+      {
+        "class": "ShoppingBasketDTO",
+        "deadCode": [
+          "8-8",
+          "10-10"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPositionDTO",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRepository",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionUserRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_11'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "ZipCodePrimitive",
+        "deadCode": [
+          "34-34"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "DeliveryService",
+        "deadCode": [
+          "67-67"
+        ]
+      },
+      {
+        "class": "ShoppingCartDeliveryService",
+        "deadCode": [
+          "4-4",
+          "15-15"
+        ]
+      },
+      {
+        "class": "OrderService",
+        "deadCode": [
+          "8-8"
+        ]
+      },
+      {
+        "class": "OrderRepository",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "PaymentService",
+        "deadCode": [
+          "42-42",
+          "50-50"
+        ],
+        "negativeConditionals": [
+          "43-43"
+        ]
+      },
+      {
+        "class": "ShoppingCartPaymentService",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "13-13",
+          "14-14",
+          "18-18"
+        ],
+        "negativeConditionals": [
+          "28-28"
+        ]
+      },
+      {
+        "class": "ShoppingCartDeliveryInterface",
+        "deadCode": [
+          "3-3"
+        ]
+      },
+      {
+        "class": "ShoppingCartPaymentInterface",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "ShoppingCartService",
+        "deadCode": [
+          "161-161",
+          "251-251"
+        ]
+      },
+      {
+        "class": "ShoppingCartRepository",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "StockService",
+        "duplication": [
+          "49-49"
+        ]
+      },
+      {
+        "class": "ThingWareHouseService",
+        "deadCode": [
+          "3-3"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionClientRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_12'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "MerchandiseService",
+        "deadCode": [
+          "25-25"
+        ],
+        "duplication": [
+          "77-77"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "CustomerTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "CustomerRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      },
+      {
+        "class": "OwnShoppingCartRESTTest",
+        "deadCode": [
+          "11-11",
+          "14-14",
+          "24-24",
+          "55-55"
+        ]
+      },
+      {
+        "class": "ShoppingCartRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_13'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "ZipCode",
+        "negativeConditionals": [
+          "42-42"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "UserDeliveryInterface",
+        "deadCode": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "Delivery",
+        "deadCode": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "DeliveryPosition",
+        "deadCode": [
+          "7-7",
+          "8-8"
+        ]
+      },
+      {
+        "class": "Good",
+        "deadCode": [
+          "5-5",
+          "6-6",
+          "9-9",
+          "10-10"
+        ]
+      },
+      {
+        "class": "OrderDTO",
+        "deadCode": [
+          "6-6",
+          "10-10"
+        ]
+      },
+      {
+        "class": "OrderPositionDTO",
+        "deadCode": [
+          "6-6",
+          "7-7",
+          "8-8",
+          "10-10",
+          "11-11",
+          "12-12"
+        ]
+      },
+      {
+        "class": "OrderService",
+        "deadCode": [
+          "18-18"
+        ]
+      },
+      {
+        "class": "Order",
+        "deadCode": [
+          "9-9",
+          "11-11"
+        ]
+      },
+      {
+        "class": "OrderPosition",
+        "deadCode": [
+          "3-3",
+          "7-7",
+          "10-10",
+          "11-11"
+        ]
+      },
+      {
+        "class": "OrderRepository",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "Payment",
+        "deadCode": [
+          "5-5",
+          "7-7",
+          "11-11",
+          "12-12"
+        ]
+      },
+      {
+        "class": "ShoppingBasketDTO",
+        "deadCode": [
+          "8-8",
+          "9-9",
+          "10-10",
+          "12-12",
+          "13-13"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPositionDTO",
+        "deadCode": [
+          "5-5",
+          "7-7"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPositionDTOMapperService",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRestController",
+        "deadCode": [
+          "18-18",
+          "20-20"
+        ]
+      },
+      {
+        "class": "UserServiceInterface",
+        "deadCode": [
+          "6-6",
+          "8-8",
+          "11-11",
+          "13-13",
+          "15-15",
+          "16-16"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPosition",
+        "deadCode": [
+          "8-8"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionUserRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_14'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "OrderDTO",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "OrderRESTController",
+        "deadCode": [
+          "4-4",
+          "9-9"
+        ]
+      },
+      {
+        "class": "OrderPosition",
+        "deadCode": [
+          "8-8"
+        ]
+      },
+      {
+        "class": "ShoppingCartRESTController",
+        "deadCode": [
+          "27-27",
+          "116-116",
+          "116-118",
+          "136-136"
+        ]
+      },
+      {
+        "class": "ShoppingCartService",
+        "deadCode": [
+          "80-80",
+          "109-109",
+          "241-241"
+        ]
+      },
+      {
+        "class": "UserRepository",
+        "deadCode": [
+          "6-6",
+          "8-8"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionUserRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_15'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "OrderController",
+        "deadCode": [
+          "42-42"
+        ]
+      },
+      {
+        "class": "OrderPositionService",
+        "deadCode": [
+          "98-98"
+        ]
+      },
+      {
+        "class": "ShoppingBasketController",
+        "deadCode": [
+          "40-40"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionUserRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_16'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "ShoppingBasketAdapterService",
+        "duplication": [
+          "88-88"
+        ]
+      },
+      {
+        "class": "ShoppingBasketService",
+        "duplication": [
+          "58-58",
+          "73-73"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "ClientTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "ClientRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      },
+      {
+        "class": "DomainPrimitiveJSONSerializationTest",
+        "deadCode": [
+          "6-6",
+          "8-8",
+          "9-9",
+          "13-13"
+        ]
+      },
+      {
+        "class": "OwnShoppingBasketRESTTest",
+        "deadCode": [
+          "75-75"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_17'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "EmailAddress",
+        "deadCode": [
+          "10-10"
+        ]
+      },
+      {
+        "class": "OrderService",
+        "duplication": [
+          "45-45"
+        ]
+      },
+      {
+        "class": "OrderJpaRepository",
+        "deadCode": [
+          "8-8"
+        ]
+      },
+      {
+        "class": "OrderRepository",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "ProductJpaRepository",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "ProductRepository",
+        "deadCode": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "CheckoutOrchestrator",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "ShoppingCartController",
+        "duplication": [
+          "98-98",
+          "101-101"
+        ]
+      },
+      {
+        "class": "ShoppingCartService",
+        "duplication": [
+          "73-73"
+        ]
+      },
+      {
+        "class": "ShoppingCartJpaRepository",
+        "deadCode": [
+          "8-8"
+        ]
+      },
+      {
+        "class": "ShoppingCartRepository",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "UserJpaRepository",
+        "deadCode": [
+          "6-6",
+          "9-9"
+        ]
+      },
+      {
+        "class": "UserRepository",
+        "deadCode": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "WarehouseService",
+        "duplication": [
+          "62-62"
+        ]
+      },
+      {
+        "class": "InventoryLevel",
+        "deadCode": [
+          "5-5",
+          "6-6"
+        ]
+      },
+      {
+        "class": "WarehouseJpaRepository",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "WarehouseRepository",
+        "deadCode": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "UserTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "ShoppingCartRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      },
+      {
+        "class": "UserRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_18'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "ZipCode",
+        "deadCode": [
+          "64-64"
+        ]
+      },
+      {
+        "class": "ClientRepository",
+        "deadCode": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "DistributionCenterService",
+        "deadCode": [
+          "117-117",
+          "178-178",
+          "196-196"
+        ]
+      },
+      {
+        "class": "StockService",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "DistributionCenterRepository",
+        "deadCode": [
+          "5-5",
+          "6-6"
+        ]
+      },
+      {
+        "class": "StockLevel",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "ItemRepository",
+        "deadCode": [
+          "3-3",
+          "6-6"
+        ]
+      },
+      {
+        "class": "OrderRepository",
+        "deadCode": [
+          "4-4",
+          "8-8"
+        ]
+      },
+      {
+        "class": "OrderpositionRepository",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "ShoppingBasket",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "ShoppingBasketId",
+        "deadCode": [
+          "4-4",
+          "5-5"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPositionDTO",
+        "deadCode": [
+          "6-6",
+          "7-7"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "ClientTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "ClientRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      },
+      {
+        "class": "OwnShoppingBasketRESTTest",
+        "deadCode": [
+          "29-29"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_19'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "UserTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "ShoppingCartRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      },
+      {
+        "class": "UserRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_2'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "PurchaseService",
+        "duplication": [
+          "76-76"
+        ]
+      },
+      {
+        "class": "ShoppingCartDTO",
+        "deadCode": [
+          "3-3",
+          "4-4",
+          "5-5",
+          "6-6",
+          "8-8",
+          "9-9",
+          "10-10",
+          "11-11"
+        ]
+      },
+      {
+        "class": "ShoppingCartPart",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "Adress",
+        "deadCode": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "StockLevel",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "UserTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "DomainPrimitiveJSONSerializationTest",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "ShoppingCartRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      },
+      {
+        "class": "UserRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_20'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139",
+          "3-3"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "InventoryManagementService",
+        "deadCode": [
+          "55-55"
+        ]
+      },
+      {
+        "class": "ShoppingCartService",
+        "deadCode": [
+          "91-91"
+        ]
+      },
+      {
+        "class": "TestHelper",
+        "deadCode": [
+          "172-172"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionCustomerRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      },
+      {
+        "class": "RegressionDeliveryMockTest",
+        "deadCode": [
+          "19-19",
+          "20-20"
+        ]
+      },
+      {
+        "class": "RegressionPaymentMockTest",
+        "deadCode": [
+          "35-35"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_3'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "AdapterService",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "GoodService",
+        "deadCode": [
+          "8-8"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRESTController",
+        "deadCode": [
+          "50-50"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionCustomerRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_4'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "FulfillmentCenterIdConverter",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "ProductIdConverter",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "PurchaseIdConverter",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "ShoppingBasketService",
+        "deadCode": [
+          "39-39"
+        ],
+        "duplication": [
+          "84-84",
+          "89-89",
+          "268-268"
+        ]
+      },
+      {
+        "class": "UserFinderAdapter",
+        "deadCode": [
+          "5-5",
+          "26-26"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "UserTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      },
+      {
+        "class": "UserRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_5'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "ZipCode",
+        "deadCode": [
+          "41-41"
+        ]
+      },
+      {
+        "class": "CustomerController",
+        "deadCode": [
+          "10-10"
+        ]
+      },
+      {
+        "class": "OrderService",
+        "duplication": [
+          "40-40"
+        ]
+      },
+      {
+        "class": "ProductService",
+        "duplication": [
+          "79-79"
+        ]
+      },
+      {
+        "class": "ShoppingBasketService",
+        "duplication": [
+          "165-165"
+        ]
+      },
+      {
+        "class": "StorageUnit",
+        "deadCode": [
+          "51-51"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "CustomerTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "CustomerRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      },
+      {
+        "class": "DomainPrimitiveJSONSerializationTest",
+        "deadCode": [
+          "44-44",
+          "66-66",
+          "87-87",
+          "88-88",
+          "89-89",
+          "110-110",
+          "111-111"
+        ]
+      },
+      {
+        "class": "OwnShoppingBasketRESTTest",
+        "deadCode": [
+          "5-5",
+          "13-13",
+          "17-17",
+          "21-21",
+          "22-22",
+          "23-23",
+          "32-32",
+          "35-35",
+          "44-44",
+          "289-289",
+          "339-339"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_6'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "Address",
+        "deadCode": [
+          "6-6",
+          "13-13"
+        ]
+      },
+      {
+        "class": "Email",
+        "deadCode": [
+          "5-5",
+          "6-6"
+        ]
+      },
+      {
+        "class": "PostalCode",
+        "deadCode": [
+          "3-3"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "CustomerRepository",
+        "deadCode": [
+          "5-5",
+          "8-8"
+        ]
+      },
+      {
+        "class": "Delivery",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "DeliveryRepository",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "OrderCustomerService",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "OrderDto",
+        "deadCode": [
+          "8-8",
+          "10-10",
+          "11-11",
+          "13-13"
+        ]
+      },
+      {
+        "class": "OrderExceptions",
+        "anemicEntity": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "Order",
+        "deadCode": [
+          "3-3",
+          "7-7",
+          "12-12"
+        ]
+      },
+      {
+        "class": "OrderRepository",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "OrderPartDto",
+        "deadCode": [
+          "10-10"
+        ]
+      },
+      {
+        "class": "Payment",
+        "deadCode": [
+          "7-7",
+          "11-11"
+        ]
+      },
+      {
+        "class": "ShoppingCartDtoMapperService",
+        "deadCode": [
+          "27-27"
+        ]
+      },
+      {
+        "class": "ShoppingCartItemDto",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "ShoppingCartService",
+        "duplication": [
+          "97-97"
+        ]
+      },
+      {
+        "class": "ShoppingInventoryService",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "AbstractCustomer",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "AbstractItem",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "ShoppingCart",
+        "deadCode": [
+          "7-7",
+          "8-8"
+        ]
+      },
+      {
+        "class": "ShoppingCartPartRepository",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "ShoppingCartRepository",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionCustomerRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_7'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "MailAddress",
+        "deadCode": [
+          "3-3"
+        ]
+      },
+      {
+        "class": "InsufficientMerchandiseInventoryException",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "FulfillmentCenterService",
+        "duplication": [
+          "44-44"
+        ]
+      },
+      {
+        "class": "PurchaseService",
+        "duplication": [
+          "35-35"
+        ]
+      },
+      {
+        "class": "ShoppingCartService",
+        "duplication": [
+          "73-73",
+          "107-107",
+          "167-167"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "CustomerTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "CustomerRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      },
+      {
+        "class": "OwnShoppingCartRESTTest",
+        "deadCode": [
+          "17-17"
+        ]
+      },
+      {
+        "class": "ShoppingCartRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_8'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "MailAddress",
+        "deadCode": [
+          "3-3"
+        ]
+      },
+      {
+        "class": "Money",
+        "deadCode": [
+          "2-2"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPositionDto",
+        "deadCode": [
+          "4-4"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPosition",
+        "deadCode": [
+          "11-11"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionUserRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "'st2_9'",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "DepotService",
+        "duplication": [
+          "65-65"
+        ]
+      },
+      {
+        "class": "DepotIdConverter",
+        "deadCode": [
+          "5-5"
+        ]
+      },
+      {
+        "class": "PurchaseService",
+        "duplication": [
+          "69-69"
+        ]
+      },
+      {
+        "class": "ShoppingBasketDTO",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "ShoppingService",
+        "duplication": [
+          "80-80",
+          "143-143"
+        ],
+        "deadCode": [
+          "248-248",
+          "284-284"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRepository",
+        "deadCode": [
+          "7-7"
+        ]
+      },
+      {
+        "class": "UserController",
+        "deadCode": [
+          "126-126",
+          "165-165"
+        ]
+      },
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "UserTestHelperImpl",
+        "deadCode": [
+          "13-13"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRESTTest",
+        "deadCode": [
+          "54-54",
+          "70-70"
+        ]
+      },
+      {
+        "class": "RulesForOwnTests",
+        "deadCode": [
+          "32-32"
+        ]
+      },
+      {
+        "class": "UserRESTTest",
+        "deadCode": [
+          "88-88"
+        ]
+      }
+    ]
+  },
+  {
+    "projektName": "st2_1",
+    "llm": "SonarQube",
+    "codeSmells": [
+      {
+        "class": "FactoryMethodInvoker",
+        "duplication": [
+          "33-33",
+          "44-44"
+        ],
+        "deadCode": [
+          "139-139"
+        ]
+      },
+      {
+        "class": "InitialMasterDataCreator",
+        "deadCode": [
+          "4-4",
+          "5-5",
+          "6-6",
+          "165-165"
+        ]
+      },
+      {
+        "class": "GoodCatalogService",
+        "deadCode": [
+          "66-66"
+        ]
+      },
+      {
+        "class": "StockManagementService",
+        "deadCode": [
+          "24-24"
+        ]
+      },
+      {
+        "class": "Good",
+        "deadCode": [
+          "6-6",
+          "8-8"
+        ]
+      },
+      {
+        "class": "GoodRepository",
+        "deadCode": [
+          "6-6"
+        ]
+      },
+      {
+        "class": "OrderService",
+        "deadCode": [
+          "17-17"
+        ]
+      },
+      {
+        "class": "OrderPositionDTO",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "OrderPositionService",
+        "deadCode": [
+          "20-20"
+        ]
+      },
+      {
+        "class": "OrderPositionRepository",
+        "deadCode": [
+          "3-3",
+          "6-6",
+          "7-7",
+          "9-9"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPositionDTO",
+        "deadCode": [
+          "3-3"
+        ]
+      },
+      {
+        "class": "ShoppingBasketPositionDTOMapperService",
+        "deadCode": [
+          "21-21"
+        ]
+      },
+      {
+        "class": "ShoppingBasketHelperClassCleanCodeService",
+        "deadCode": [
+          "71-71",
+          "184-184"
+        ]
+      },
+      {
+        "class": "ShoppingBasketRESTController",
+        "deadCode": [
+          "150-150"
+        ]
+      },
+      {
+        "class": "ShoppingBasketService",
+        "deadCode": [
+          "40-40"
+        ]
+      },
+      {
+        "class": "E3DDDRulesTest",
+        "deadCode": [
+          "15-15"
+        ]
+      },
+      {
+        "class": "E3PackageStructureTest",
+        "deadCode": [
+          "9-9"
+        ]
+      },
+      {
+        "class": "RESTHelper",
+        "deadCode": [
+          "77-77",
+          "78-78"
+        ]
+      },
+      {
+        "class": "RegressionClientRegistrationTest",
+        "deadCode": [
+          "31-31"
+        ]
+      }
+    ]
+  }
+]

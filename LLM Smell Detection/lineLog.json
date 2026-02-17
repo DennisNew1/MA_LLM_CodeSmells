@@ -5952,7 +5952,7 @@
             ]
         },
         {
-            "projektName": "'st2_7'",
+            "projektName": "st2_7",
             "llm": "Gemini",
             "codeSmells": [
                 {
@@ -6078,7 +6078,7 @@
             ]
         },
         {
-            "projektName": "'st2_10'",
+            "projektName": "st2_10",
             "llm": "DeepSeek",
             "codeSmells": [
                 {
@@ -6142,6 +6142,1648 @@
                     "class": "UserBasketInterface",
                     "deadCode": [
                         "1-13"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_10",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "DeliveryService",
+                    "sharedPersistency": [
+                        "26"
+                    ],
+                    "duplication": [
+                        "37-41"
+                    ],
+                    "layerViolation": [
+                        "59"
+                    ]
+                },
+                {
+                    "class": "Delivery",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "GoodService",
+                    "sharedPersistency": [
+                        "26"
+                    ],
+                    "duplication": [
+                        "208-212",
+                        "215"
+                    ]
+                },
+                {
+                    "class": "Good",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderApplicationService",
+                    "sharedPersistency": [
+                        "29"
+                    ],
+                    "duplication": [
+                        "46-56"
+                    ],
+                    "misplacedResponsibility": [
+                        "103",
+                        "119"
+                    ]
+                },
+                {
+                    "class": "OrderController",
+                    "deadCode": [
+                        "29",
+                        "31"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "PaymentService",
+                    "deadCode": [
+                        "23",
+                        "28"
+                    ],
+                    "sharedPersistency": [
+                        "25"
+                    ]
+                },
+                {
+                    "class": "Payment",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketApplicationService",
+                    "sharedPersistency": [
+                        "40",
+                        "42",
+                        "44",
+                        "48"
+                    ],
+                    "misplacedResponsibility": [
+                        "50"
+                    ],
+                    "deadCode": [
+                        "198-241"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketService",
+                    "sharedPersistency": [
+                        "35",
+                        "37",
+                        "39",
+                        "41",
+                        "47"
+                    ],
+                    "duplication": [
+                        "179-196",
+                        "230-249"
+                    ],
+                    "misplacedResponsibility": [
+                        "374"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasket",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "UserService",
+                    "duplication": [
+                        "52"
+                    ]
+                },
+                {
+                    "class": "User",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_11",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "FactoryMethodInvoker",
+                    "duplication": [
+                        "51-79",
+                        "82-107",
+                        "110-135"
+                    ]
+                },
+                {
+                    "class": "InitialMasterDataCreator",
+                    "deadCode": [
+                        "162-175",
+                        "221-228"
+                    ]
+                },
+                {
+                    "class": "ClientRegistrationService",
+                    "duplication": [
+                        "50-59"
+                    ]
+                },
+                {
+                    "class": "Client",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "DeliveryService",
+                    "sharedPersistency": [
+                        "20"
+                    ],
+                    "duplication": [
+                        "29-40"
+                    ]
+                },
+                {
+                    "class": "Delivery",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderController",
+                    "duplication": [
+                        "67"
+                    ]
+                },
+                {
+                    "class": "OrderService",
+                    "deadCode": [
+                        "7"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "PaymentService",
+                    "sharedPersistency": [
+                        "23"
+                    ],
+                    "negativeConditionals": [
+                        "43"
+                    ]
+                },
+                {
+                    "class": "Payment",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingCartController",
+                    "duplication": [
+                        "130"
+                    ]
+                },
+                {
+                    "class": "ShoppingCartService",
+                    "duplication": [
+                        "80-88",
+                        "130-136"
+                    ],
+                    "layerViolation": [
+                        "241"
+                    ]
+                },
+                {
+                    "class": "ShoppingCart",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "Thing",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "StockService",
+                    "sharedPersistency": [
+                        "20"
+                    ],
+                    "duplication": [
+                        "84-103"
+                    ]
+                },
+                {
+                    "class": "WareHouse",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_13",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "Money",
+                    "duplication": [
+                        "65-70",
+                        "105-110"
+                    ]
+                },
+                {
+                    "class": "ZipCode",
+                    "negativeConditionals": [
+                        "42"
+                    ]
+                },
+                {
+                    "class": "DeliveryService",
+                    "duplication": [
+                        "53-64"
+                    ],
+                    "misplacedResponsibility": [
+                        "44"
+                    ]
+                },
+                {
+                    "class": "Delivery",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "DeliveryPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "GoodService",
+                    "deadCode": [
+                        "31"
+                    ],
+                    "sharedPersistency": [
+                        "31"
+                    ],
+                    "misplacedResponsibility": [
+                        "198-208"
+                    ]
+                },
+                {
+                    "class": "GoodRepository",
+                    "misplacedResponsibility": [
+                        "14-61"
+                    ]
+                },
+                {
+                    "class": "OrderRestController",
+                    "misplacedResponsibility": [
+                        "36-38",
+                        "40-48"
+                    ]
+                },
+                {
+                    "class": "OrderService",
+                    "deadCode": [
+                        "40"
+                    ],
+                    "duplication": [
+                        "46-50"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "PaymentService",
+                    "sharedPersistency": [
+                        "77",
+                        "56"
+                    ]
+                },
+                {
+                    "class": "Payment",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketRestController",
+                    "misplacedResponsibility": [
+                        "52-66"
+                    ],
+                    "duplication": [
+                        "121-123"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketService",
+                    "deadCode": [
+                        "56",
+                        "400",
+                        "411",
+                        "421"
+                    ],
+                    "duplication": [
+                        "117-122",
+                        "151-159",
+                        "183-191"
+                    ],
+                    "sharedPersistency": [
+                        "205"
+                    ],
+                    "misplacedResponsibility": [
+                        "316"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasket",
+                    "deadCode": [
+                        "53-55"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "UserDeliveryPaymentService",
+                    "misplacedResponsibility": [
+                        "20"
+                    ],
+                    "sharedPersistency": [
+                        "34"
+                    ]
+                },
+                {
+                    "class": "UserLessService",
+                    "duplication": [
+                        "16"
+                    ],
+                    "sharedPersistency": [
+                        "26-29"
+                    ]
+                },
+                {
+                    "class": "UserService",
+                    "duplication": [
+                        "73-75"
+                    ],
+                    "misplacedResponsibility": [
+                        "125-133"
+                    ]
+                },
+                {
+                    "class": "User",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "UserRepository",
+                    "misplacedResponsibility": [
+                        "29-91"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_15",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "Email",
+                    "negativeConditionals": [
+                        "46-47"
+                    ]
+                },
+                {
+                    "class": "Money",
+                    "negativeConditionals": [
+                        "63-64"
+                    ]
+                },
+                {
+                    "class": "FactoryMethodInvoker",
+                    "duplication": [
+                        "51-79",
+                        "82-107",
+                        "110-135"
+                    ],
+                    "deadCode": [
+                        "147"
+                    ]
+                },
+                {
+                    "class": "InitialMasterDataCreator",
+                    "deadCode": [
+                        "162-175",
+                        "221-228"
+                    ]
+                },
+                {
+                    "class": "DeliveryService",
+                    "duplication": [
+                        "38-48"
+                    ]
+                },
+                {
+                    "class": "Delivery",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderController",
+                    "duplication": [
+                        "46"
+                    ]
+                },
+                {
+                    "class": "OrderDtoMapper",
+                    "duplication": [
+                        "21-25"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderPositionService",
+                    "duplication": [
+                        "61-63"
+                    ]
+                },
+                {
+                    "class": "ProductSpecificOrderPositionService",
+                    "duplication": [
+                        "26-33",
+                        "43-46"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketSpecificOrderPositionService",
+                    "duplication": [
+                        "24-33",
+                        "49-54",
+                        "98-100"
+                    ]
+                },
+                {
+                    "class": "OrderPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "PaymentService",
+                    "misplacedResponsibility": [
+                        "41-50"
+                    ]
+                },
+                {
+                    "class": "Payment",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "Product",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "InventorySpecificShoppingBasketService",
+                    "misplacedResponsibility": [
+                        "40-49"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketController",
+                    "duplication": [
+                        "45"
+                    ],
+                    "misplacedResponsibility": [
+                        "130-178"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketControllerService",
+                    "duplication": [
+                        "56-67"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketInternalService",
+                    "duplication": [
+                        "94-105"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketService",
+                    "duplication": [
+                        "171-176"
+                    ],
+                    "misplacedResponsibility": [
+                        "196-200"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasket",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "UserRegistrationService",
+                    "duplication": [
+                        "41-57"
+                    ]
+                },
+                {
+                    "class": "User",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "Warehouse",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_16",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "EmailAddress",
+                    "duplication": [
+                        "38"
+                    ],
+                    "negativeConditionals": [
+                        "46"
+                    ]
+                },
+                {
+                    "class": "ClientRegistrationService",
+                    "duplication": [
+                        "23-25",
+                        "35",
+                        "40-44"
+                    ]
+                },
+                {
+                    "class": "FulfillmentCenterAdapterService",
+                    "duplication": [
+                        "52-53",
+                        "55-57"
+                    ]
+                },
+                {
+                    "class": "FulfillmentCenterService",
+                    "duplication": [
+                        "47"
+                    ]
+                },
+                {
+                    "class": "Item",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderService",
+                    "sharedPersistency": [
+                        "24"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ],
+                    "deadCode": [
+                        "53-57"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketAdapterService",
+                    "duplication": [
+                        "34-42"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketService",
+                    "sharedPersistency": [
+                        "34",
+                        "35",
+                        "36"
+                    ],
+                    "deadCode": [
+                        "105-131"
+                    ],
+                    "misplacedResponsibility": [
+                        "120"
+                    ],
+                    "duplication": [
+                        "133-184",
+                        "164-166",
+                        "191-193"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_17",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "OrderService",
+                    "sharedPersistency": [
+                        "44",
+                        "106"
+                    ],
+                    "duplication": [
+                        "89-91"
+                    ]
+                },
+                {
+                    "class": "ProductService",
+                    "sharedPersistency": [
+                        "83",
+                        "92"
+                    ],
+                    "duplication": [
+                        "103-105"
+                    ]
+                },
+                {
+                    "class": "Product",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "CheckoutOrchestrator",
+                    "sharedPersistency": [
+                        "126"
+                    ]
+                },
+                {
+                    "class": "InventoryManager",
+                    "sharedPersistency": [
+                        "22"
+                    ]
+                },
+                {
+                    "class": "ShoppingCartController",
+                    "layerViolation": [
+                        "30-33",
+                        "62",
+                        "66",
+                        "156",
+                        "165"
+                    ],
+                    "duplication": [
+                        "127-131",
+                        "153-157"
+                    ]
+                },
+                {
+                    "class": "ShoppingCartService",
+                    "sharedPersistency": [
+                        "72",
+                        "75",
+                        "102",
+                        "171"
+                    ],
+                    "duplication": [
+                        "88-96",
+                        "118-120",
+                        "135-137"
+                    ]
+                },
+                {
+                    "class": "WarehouseService",
+                    "duplication": [
+                        "76-80",
+                        "86-88",
+                        "90-92",
+                        "106-110",
+                        "116-118",
+                        "120-122",
+                        "131-135",
+                        "138-140",
+                        "142-144"
+                    ]
+                },
+                {
+                    "class": "OwnTestsTest",
+                    "deadCode": [
+                        "7"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_17",
+            "llm": "DeepSeek",
+            "codeSmells": [
+                {
+                    "class": "CheckoutOrchestrator",
+                    "duplication": [
+                        "24-37",
+                        "60-62"
+                    ]
+                },
+                {
+                    "class": "ShoppingCartService",
+                    "duplication": [
+                        "59-84"
+                    ]
+                },
+                {
+                    "class": "ProductService",
+                    "layerViolation": [
+                        "73-99"
+                    ],
+                    "sharedPersistency": [
+                        "73-99"
+                    ],
+                    "misplacedResponsibility": [
+                        "73-99"
+                    ]
+                },
+                {
+                    "class": "WarehouseService",
+                    "duplication": [
+                        "64-68"
+                    ]
+                },
+                {
+                    "class": "Product",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_19",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "Currency",
+                    "negativeConditionals": [
+                        "54",
+                        "71",
+                        "105",
+                        "136"
+                    ],
+                    "duplication": [
+                        "71",
+                        "105"
+                    ]
+                },
+                {
+                    "class": "Email",
+                    "negativeConditionals": [
+                        "123"
+                    ]
+                },
+                {
+                    "class": "ZipCode",
+                    "negativeConditionals": [
+                        "79",
+                        "86"
+                    ]
+                },
+                {
+                    "class": "ItemService",
+                    "duplication": [
+                        "63-65"
+                    ],
+                    "negativeConditionals": [
+                        "138"
+                    ]
+                },
+                {
+                    "class": "Item",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingCartService",
+                    "duplication": [
+                        "101",
+                        "102"
+                    ],
+                    "misplacedResponsibility": [
+                        "188-222"
+                    ],
+                    "negativeConditionals": [
+                        "251"
+                    ]
+                },
+                {
+                    "class": "ShoppingCartPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "StorageUnitService",
+                    "duplication": [
+                        "58-71"
+                    ]
+                },
+                {
+                    "class": "InventoryLevel",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "UserService",
+                    "negativeConditionals": [
+                        "58",
+                        "86",
+                        "149"
+                    ],
+                    "duplication": [
+                        "83-88"
+                    ]
+                },
+                {
+                    "class": "User",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OwnTestsTest",
+                    "deadCode": [
+                        "7-8"
+                    ]
+                },
+                {
+                    "class": "OwnShoppingCartRESTTest",
+                    "duplication": [
+                        "137-153"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_2",
+            "llm": "DeepSeek",
+            "codeSmells": [
+                {
+                    "class": "ProductCatalogService",
+                    "duplication": [
+                        "122-126",
+                        "128-132",
+                        "139-155"
+                    ]
+                },
+                {
+                    "class": "PurchaseService",
+                    "duplication": [
+                        "74-76",
+                        "99-101"
+                    ]
+                },
+                {
+                    "class": "ShoppingCartService",
+                    "duplication": [
+                        "314-323",
+                        "324-333",
+                        "291-298",
+                        "306-312",
+                        "65-95",
+                        "112-144",
+                        "146-175"
+                    ]
+                },
+                {
+                    "class": "StorageUnitService",
+                    "duplication": [
+                        "277-283",
+                        "285-289"
+                    ]
+                },
+                {
+                    "class": "UserRegistrationService",
+                    "duplication": [
+                        "66-70",
+                        "71-75"
+                    ]
+                },
+                {
+                    "class": "Adress",
+                    "duplication": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "FactoryMethodInvoker",
+                    "duplication": [
+                        "23-48",
+                        "51-79",
+                        "82-107",
+                        "110-135"
+                    ]
+                },
+                {
+                    "class": "Product",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "Purchase",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingCart",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "User",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_3",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "Address",
+                    "deadCode": [
+                        "26-28"
+                    ]
+                },
+                {
+                    "class": "Email",
+                    "deadCode": [
+                        "19-21"
+                    ],
+                    "negativeConditionals": [
+                        "37-42"
+                    ]
+                },
+                {
+                    "class": "Money",
+                    "deadCode": [
+                        "21-23"
+                    ],
+                    "negativeConditionals": [
+                        "28"
+                    ],
+                    "duplication": [
+                        "54",
+                        "69"
+                    ]
+                },
+                {
+                    "class": "ZipCode",
+                    "deadCode": [
+                        "15-17"
+                    ]
+                },
+                {
+                    "class": "FactoryMethodInvoker",
+                    "duplication": [
+                        "51-79",
+                        "82-107",
+                        "110-135"
+                    ]
+                },
+                {
+                    "class": "Customer",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "DeliveryService",
+                    "misplacedResponsibility": [
+                        "63"
+                    ]
+                },
+                {
+                    "class": "Delivery",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "DeliveryPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderRESTController",
+                    "duplication": [
+                        "39"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "PaymentService",
+                    "misplacedResponsibility": [
+                        "46"
+                    ]
+                },
+                {
+                    "class": "Payment",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketRESTController",
+                    "layerViolation": [
+                        "88"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketService",
+                    "misplacedResponsibility": [
+                        "186-194"
+                    ],
+                    "deadCode": [
+                        "245"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasket",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_8",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "MailAddress",
+                    "negativeConditionals": [
+                        "51",
+                        "58",
+                        "59",
+                        "64",
+                        "74"
+                    ],
+                    "duplication": [
+                        "59",
+                        "61",
+                        "63"
+                    ]
+                },
+                {
+                    "class": "Money",
+                    "negativeConditionals": [
+                        "45"
+                    ]
+                },
+                {
+                    "class": "PostalCode",
+                    "negativeConditionals": [
+                        "40"
+                    ]
+                },
+                {
+                    "class": "FactoryMethodInvoker",
+                    "duplication": [
+                        "82-107",
+                        "110-135"
+                    ]
+                },
+                {
+                    "class": "InitialMasterDataCreator",
+                    "deadCode": [
+                        "221"
+                    ]
+                },
+                {
+                    "class": "Address",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "DeliveryService",
+                    "sharedPersistency": [
+                        "26"
+                    ],
+                    "negativeConditionals": [
+                        "83"
+                    ]
+                },
+                {
+                    "class": "Delivery",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "DeliveryPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderController",
+                    "layerViolation": [
+                        "21",
+                        "22",
+                        "23"
+                    ],
+                    "negativeConditionals": [
+                        "38"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "PaymentService",
+                    "negativeConditionals": [
+                        "38"
+                    ]
+                },
+                {
+                    "class": "Payment",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "InventoryService",
+                    "negativeConditionals": [
+                        "24",
+                        "37",
+                        "79",
+                        "84",
+                        "107"
+                    ],
+                    "duplication": [
+                        "89-99"
+                    ]
+                },
+                {
+                    "class": "ProductCatalogService",
+                    "negativeConditionals": [
+                        "43",
+                        "51"
+                    ]
+                },
+                {
+                    "class": "Product",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketConsumerService",
+                    "negativeConditionals": [
+                        "24"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketController",
+                    "layerViolation": [
+                        "24",
+                        "26",
+                        "32"
+                    ],
+                    "negativeConditionals": [
+                        "38",
+                        "57",
+                        "58",
+                        "67",
+                        "84",
+                        "106",
+                        "107",
+                        "110",
+                        "123",
+                        "124",
+                        "127",
+                        "139"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketService",
+                    "sharedPersistency": [
+                        "31",
+                        "33",
+                        "35",
+                        "37"
+                    ],
+                    "negativeConditionals": [
+                        "51",
+                        "52",
+                        "56",
+                        "67",
+                        "68",
+                        "83",
+                        "84",
+                        "99",
+                        "118",
+                        "134",
+                        "136",
+                        "156",
+                        "158",
+                        "166",
+                        "171",
+                        "192",
+                        "221",
+                        "273",
+                        "274",
+                        "302",
+                        "303"
+                    ],
+                    "duplication": [
+                        "71-74"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketRepository",
+                    "negativeConditionals": [
+                        "94"
+                    ]
+                },
+                {
+                    "class": "UserService",
+                    "negativeConditionals": [
+                        "53",
+                        "72"
+                    ]
+                },
+                {
+                    "class": "User",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_9",
+            "llm": "Gemini",
+            "codeSmells": [
+                {
+                    "class": "DepotAdapterService",
+                    "duplication": [
+                        "45-46",
+                        "52-53",
+                        "59-60",
+                        "66-67"
+                    ]
+                },
+                {
+                    "class": "DepotService",
+                    "negativeConditionals": [
+                        "62"
+                    ],
+                    "duplication": [
+                        "90-91",
+                        "115-116",
+                        "144-145"
+                    ],
+                    "deadCode": [
+                        "173-175",
+                        "181-185"
+                    ]
+                },
+                {
+                    "class": "Product",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ProductService",
+                    "deadCode": [
+                        "83"
+                    ]
+                },
+                {
+                    "class": "Purchase",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "PurchasePosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "PurchaseService",
+                    "duplication": [
+                        "75"
+                    ]
+                },
+                {
+                    "class": "ShoppingApplicationService",
+                    "misplacedResponsibility": [
+                        "37-47"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketController",
+                    "duplication": [
+                        "83-88",
+                        "127-131",
+                        "147-151"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingService",
+                    "sharedPersistency": [
+                        "42",
+                        "309"
+                    ],
+                    "negativeConditionals": [
+                        "76",
+                        "111",
+                        "135",
+                        "162"
+                    ],
+                    "duplication": [
+                        "137-140",
+                        "142-143",
+                        "176-179",
+                        "181-182",
+                        "196-199",
+                        "201-202",
+                        "221-224",
+                        "226-227"
+                    ],
+                    "misplacedResponsibility": [
+                        "218-317"
+                    ],
+                    "layerViolation": [
+                        "229"
+                    ]
+                },
+                {
+                    "class": "StockLevel",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "User",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "UserController",
+                    "duplication": [
+                        "94-99",
+                        "146-150"
+                    ],
+                    "deadCode": [
+                        "165-171"
+                    ]
+                },
+                {
+                    "class": "UserService",
+                    "deadCode": [
+                        "63-67"
+                    ]
+                }
+            ]
+        },
+        {
+            "projektName": "st2_15",
+            "llm": "DeepSeek",
+            "codeSmells": [
+                {
+                    "class": "FactoryMethodInvoker",
+                    "duplication": [
+                        "23-48",
+                        "51-79",
+                        "82-107",
+                        "110-135",
+                        "138-149"
+                    ]
+                },
+                {
+                    "class": "InitialMasterDataCreator",
+                    "deadCode": [
+                        "85",
+                        "162-175"
+                    ]
+                },
+                {
+                    "class": "DeliveryService",
+                    "duplication": [
+                        "38-48"
+                    ],
+                    "misplacedResponsibility": [
+                        "54-62"
+                    ],
+                    "negativeConditionals": [
+                        "66-72"
+                    ]
+                },
+                {
+                    "class": "Delivery",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderDtoMapper",
+                    "duplication": [
+                        "18-25"
+                    ],
+                    "misplacedResponsibility": [
+                        "18-25"
+                    ]
+                },
+                {
+                    "class": "Order",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "OrderPositionService",
+                    "duplication": [
+                        "43-52",
+                        "54-68"
+                    ],
+                    "misplacedResponsibility": [
+                        "92-107"
+                    ]
+                },
+                {
+                    "class": "OrderPosition",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "Product",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketControllerService",
+                    "deadCode": [
+                        "44-50"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasketService",
+                    "duplication": [
+                        "167-179"
+                    ],
+                    "misplacedResponsibility": [
+                        "167-179"
+                    ],
+                    "negativeConditionals": [
+                        "228-234"
+                    ]
+                },
+                {
+                    "class": "ShoppingBasket",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "UserRegistrationService",
+                    "duplication": [
+                        "41-57"
+                    ]
+                },
+                {
+                    "class": "User",
+                    "anemicEntity": [
+                        "Class"
+                    ]
+                },
+                {
+                    "class": "Warehouse",
+                    "anemicEntity": [
+                        "Class"
                     ]
                 }
             ]
